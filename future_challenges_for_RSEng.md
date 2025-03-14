@@ -14,6 +14,7 @@ author:
   - Frank Löffler
   - Michele Martone
   - Jan Philipp Thiele
+  - Nick del Grosso
 
 output:
   pdf_document:
@@ -24,7 +25,7 @@ secnumdepth: 3
 biblatexoptions: [alldates=iso]
 
 abstract: "
-Admittedly; it’s still only 2025 and we are actually working on establishing Research Software Engineering
+Admittedly, it’s still only 2025 and we are actually stillworking on establishing Research Software Engineering
 as a new domain with the hope of ensuring that it gets the recognition it deserves.
 And while it is certainly too early to already herald the end of RSEng,
 we should acknowledge that the future is in constant flux and
@@ -33,8 +34,14 @@ it is worthwhile to discuss how RSEng will/could change in response to these upc
 ---
 
 # Introduction
+This opinion article stems from a Bof session at deRSE25 in Karsruhe. Therefore it stems from a discussion
+among the participants of this workshop and hence cannot claim that it represents the entire deRSE community.
+Nevertheless we hope, that we succeeded in writing up something that 
+1) you like to read,
+2) gives you something to think about,
+3) motivates you to work on creating this better future.
+
 - Why do we do this
-- workshop
 
 
 # The Situation
@@ -48,33 +55,70 @@ Which tasks are persisting, where they are now happy that a younger generation i
 What issues have newly emerged, where they are now just happy to say: “Oh well… My successor takes care of that”.
 
 # Aspects of this future
+It is diffcult to structure the different aspects in describing the future. We decided for the following
 
-## Which are the topics that we want to have achieved by 2035?
+## What do we want to have achieved by 2035
 
-## How have academic Institutions transformed by then?
-
-## Definition of RSEs? How will that evolve in ten years? What will not change in the essence of an RSE ten years from now?
-
-## How will RSE change in the face of the ongoing digitalization of society?
+## Definition and Evolution of RSEs
+How will the Definition of an RSE evolve in ten years?
+What will not change in the essence of an RSE ten years from now?
 Here we consider how the topics of RSEng will change in the face of the digitalization of society.
 Also here: What will our topics be after version control doesn’t need to be taught anymore? Digitalisation will also feature more heavily in the domain curricula.
 
-## How will Education of digital knowledge
 
-## How will AI impact our work?
+## Education, and changes in the educational system
+FG-NOTE: I wonder if we need a separation between education of RSEs and changes in the education of the broader society.
+
+## Impact of AI and automation
 Is it better than cheap PhDs?
 
-## Where has abstraction brought us, and which complexities are now hidden behind it?
-- Here we would need a catchy word, that I think should exist out there. Is it Interface? Encapsulation?
-Is there a word for "abstracting sth. away?"
+## How have academic Institutions transformed by then? ( Point 4 in the issue )
+- Emerging structures:
+  - Universities/Institutes with central pools of RSEs, each specializing in data management, visualization, HPC, etc.
+  - Potential for closer collaboration between domain scientists and RSEs to share workload effectively.
+
+- Challenges:
+  - Budget and administrative hurdles to creating permanent, well-funded RSE teams.
+  - Aligning expectations: researchers might not realize that specialized RSE services exist (and are beneficial).
+
+- Networking:
+  - Need to share best practices among institutions with successful RSE teams.
+  - Encourage knowledge exchange to find models that suit different organizational constraints.
+
+## Ethics and social consideration
+FG-NOTE: Given what ChatGPT has put in there, I wonder if we need to separate these two items
+MM-NOTE: (Flo believes it was from Michele) Are we assuming that progress will bring prosperity? Will we remain constrained by needing to produce products/artifacts?
+
+- Military or other sensitive applications:
+  - RSEs (like physicists, mathematicians, etc.) might face ethical dilemmas if their work can be repurposed for weaponry.
+  - Importance of having personal “red lines” and awareness of how software can be used.
+
+- Corporate dominance:
+  - AI and coding platforms might be increasingly controlled by a small number of large corporations.
+  - RSE community might need to develop or advocate for open-source alternatives.
+
 
 ## What are new tasks of RTPs?
+FG-NOTE: RSEs are one type of specialization of RTPs ins science. Do we see any other?
 
-## Are we assuming that progress will bring prosperity? Will we remain constrained by needing to produce products/artifacts?
+## Impact of Alternate Career Paths for Researchers on the Structure of Research Institutes
+FG-NOTE: By Nick. I've put it here, due to the realtion with the RTP question.
+
+
+## Where has abstraction brought us, and which complexities are now hidden behind it?
+FG-NOTE: What would be great, if we can put it in a black box in our daily work and not worry about it any longer?
+FG-NOTE: Here we would need a catchy word, that I think should exist out there. Is it Interface? Encapsulation?
+Is there a word for "abstracting sth. away?"
+
+## Impact of Increased Usability in Research Software
 
 ## What is in this future for RSEs?
+FG-NOTE: I think we can use this part to wrap things a bit up, and describe how this future then looks like.
 
 
 # REALLY Long-term(10+ years) aspects
 Technically this would mean taking everything from the previous section for granted and look
 at what becomes now possible.
+
+## Acknowledgements
+AI Systems have been harmed in the creation of this work.
