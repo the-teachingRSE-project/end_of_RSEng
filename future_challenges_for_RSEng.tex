@@ -1,50 +1,56 @@
----
-title: "Future challenges for Research Software Engineering"
-geometry: "top=0.5cm,right=2.5cm,bottom=2.5cm,left=2.5cm" # Only for the title page, see include-before for the rest.
-author:
-  - Florian Goth
-  - Leyla Jael Castro
-  - Gerasimos Chourdakis
-  - Simon Christ
-  - Jeremy Cohen
-  - Jean-Noël Grad
-  - Magnus Hagdorn
-  - Toby Hodges
-  - Jan Linxweiler
-  - Frank Löffler
-  - Michele Martone
-  - Jan Philipp Thiele
-  - Nick del Grosso
+\documentclass{eceasst}
+% This is an empty ECEASST article that can be used as a template
+% by authors.
 
-output:
-  pdf_document:
-    citation_package: biblatex
-    toc: true
-    number_sections: true
-secnumdepth: 3
-biblatexoptions: [alldates=iso]
+% Required packages
+% =================
+% Your \usepackage commands go here.
 
-abstract: "
-Admittedly, it’s still only 2025 and we are actually stillworking on establishing Research Software Engineering
+% Article frontmatter
+% ===================
+\title{Future challenges for Research Software Engineering} % Title of the article
+%\short{} % Short title of the article (optional)
+\author{
+Florian Goth\autref{1},
+Leyla Jael Castro\autref{1},
+Gerasimos Chourdakis\autref{1},
+Simon Christ\autref{1},
+Jeremy Cohen\autref{1},
+Jean-Noël Grad\autref{1},
+Magnus Hagdorn\autref{1},
+Toby Hodges\autref{1},
+Jan Linxweiler\autref{1},
+Frank Löffler\autref{1},
+Michele Martone\autref{1},
+Jan Philipp Thiele\autref{1},
+Nick del Grosso\autref{1}
+} % Authors and references to addresses
+\institute{Fantasy University\autlabel{1}} % Institutes with labels
+\abstract{Admittedly, it’s still only 2025 and we are actually stillworking on establishing Research Software Engineering
 as a new domain with the hope of ensuring that it gets the recognition it deserves.
 And while it is certainly too early to already herald the end of RSEng,
 we should acknowledge that the future is in constant flux and
-it is worthwhile to discuss how RSEng will/could change in response to these upcoming challenges in an open discussion.
-"
----
+it is worthwhile to discuss how RSEng will/could change in response to these upcoming challenges in an open discussion.} % Abstract of the article
+\keywords{Keywords go here.} % Keywords for the article
 
-# Introduction
+\begin{document}
+\maketitle
+
+% Main part of your article
+% =========================
+\section{Introduction}
 This opinion article stems from a Bof session at deRSE25 in Karsruhe. Therefore it stems from a discussion
 among the participants of this workshop and hence cannot claim that it represents the entire deRSE community.
-Nevertheless we hope, that we succeeded in writing up something that 
-1) you like to read,
-2) gives you something to think about,
-3) motivates you to work on creating this better future.
+Nevertheless we hope, that we succeeded in writing up something that
+\begin{itemize}
+\item you like to read,
+\item gives you something to think about,
+\item motivates you to work on creating this better future.
+\end{itemize}
 
 - Why do we do this
 
-
-# The Situation
+\section{The Situation}
 In order to give a more explicit setting, imagine a world ten years from now.
 Not too much, to be overwhelmingly far in the future, but distant enough for some changes to occur.
 Over this timeframe Kim and Kay
@@ -54,25 +60,26 @@ When they look back, what will they see as problems which are now solved?
 Which tasks are persisting, where they are now happy that a younger generation is now taking up the baton and carries forward their work.
 What issues have newly emerged, where they are now just happy to say: “Oh well… My successor takes care of that”.
 
-# Aspects of this future
+
+\section{Aspects of this future}
 It is diffcult to structure the different aspects in describing the future. We decided for the following
 
-## What do we want to have achieved by 2035
+\subsection{What do we want to have achieved by 2035}
 
-## Definition and Evolution of RSEs
+\subsection{Definition and Evolution of RSEs}
 How will the Definition of an RSE evolve in ten years?
 What will not change in the essence of an RSE ten years from now?
 Here we consider how the topics of RSEng will change in the face of the digitalization of society.
 Also here: What will our topics be after version control doesn’t need to be taught anymore? Digitalisation will also feature more heavily in the domain curricula.
 
 
-## Education, and changes in the educational system
+\subsection{Education, and changes in the educational system}
 FG-NOTE: I wonder if we need a separation between education of RSEs and changes in the education of the broader society.
 
-## Impact of AI and automation
+\subsection{Impact of AI and automation}
 Is it better than cheap PhDs?
 
-## How have academic Institutions transformed by then? ( Point 4 in the issue )
+\subsection{How have academic Institutions transformed by then? ( Point 4 in the issue )}
 - Emerging structures:
   - Universities/Institutes with central pools of RSEs, each specializing in data management, visualization, HPC, etc.
   - Potential for closer collaboration between domain scientists and RSEs to share workload effectively.
@@ -85,7 +92,7 @@ Is it better than cheap PhDs?
   - Need to share best practices among institutions with successful RSE teams.
   - Encourage knowledge exchange to find models that suit different organizational constraints.
 
-## Ethics and social consideration
+\subsection{Ethics and social consideration}
 FG-NOTE: Given what ChatGPT has put in there, I wonder if we need to separate these two items
 MM-NOTE: (Flo believes it was from Michele) Are we assuming that progress will bring prosperity? Will we remain constrained by needing to produce products/artifacts?
 
@@ -98,27 +105,35 @@ MM-NOTE: (Flo believes it was from Michele) Are we assuming that progress will b
   - RSE community might need to develop or advocate for open-source alternatives.
 
 
-## What are new tasks of RTPs?
+\subsection{What are new tasks of RTPs?}
 FG-NOTE: RSEs are one type of specialization of RTPs ins science. Do we see any other?
 
-## Impact of Alternate Career Paths for Researchers on the Structure of Research Institutes
+\subsection{Impact of Alternate Career Paths for Researchers on the Structure of Research Institutes}
 FG-NOTE: By Nick. I've put it here, due to the realtion with the RTP question.
 
 
-## Where has abstraction brought us, and which complexities are now hidden behind it?
+\subsection{Where has abstraction brought us, and which complexities are now hidden behind it?}
 FG-NOTE: What would be great, if we can put it in a black box in our daily work and not worry about it any longer?
 FG-NOTE: Here we would need a catchy word, that I think should exist out there. Is it Interface? Encapsulation?
 Is there a word for "abstracting sth. away?"
 
-## Impact of Increased Usability in Research Software
+\subsection{Impact of Increased Usability in Research Software}
 
-## What is in this future for RSEs?
+\subsection{What is in this future for RSEs?}
 FG-NOTE: I think we can use this part to wrap things a bit up, and describe how this future then looks like.
 
 
-# REALLY Long-term(10+ years) aspects
+\section{REALLY Long-term(10+ years) aspects}
 Technically this would mean taking everything from the previous section for granted and look
 at what becomes now possible.
 
-## Acknowledgements
+\begin{acknowledge}
 AI Systems have been harmed in the creation of this work.
+\end{acknowledge}
+
+% Bibliography with BibTeX
+% ========================
+\bibliographystyle{eceasst}
+%\bibliography{}
+
+\end{document}
