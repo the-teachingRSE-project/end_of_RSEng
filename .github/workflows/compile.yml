@@ -1,0 +1,47 @@
+name: paper
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v4
+        with:
+          submodules: false # must be done manually
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: future_challenges_for_RSEng.tex
+          continue_on_error: false
+          latexmk_shell_escape: false
+          extra_system_packages: sed
+          pre_compile: |
+            sed -i 's|^[ \t]*url *= *../|  url = https://github.com/the-teachingRSE-project/|' .gitmodules \
+              && git submodule update --init --recursive \
+              && git config --local submodule.recurse true
+      - name: Upload PDF file
+        uses: actions/upload-artifact@v4
+        with:
+          name: PDF
+          path: future_challenges_for_RSEng.pdf
+  deploy:
+    needs: [build]
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    if: ${{ github.repository == 'the-teachingRSE-project/end_of_RSEng' && github.ref == 'refs/heads/main' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: github_artifacts
+      - name: move
+        run: mkdir -p github_deploy && mv github_artifacts/*/* github_deploy
+      - name: deploy on orphan branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./github_deploy
+          publish_branch: build
+          force_orphan: true
