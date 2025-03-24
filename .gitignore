@@ -1,0 +1,8 @@
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+future_challenges_for_RSEng.pdf
