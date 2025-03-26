@@ -5,6 +5,9 @@
 % Required packages
 % =================
 % Your \usepackage commands go here.
+\usepackage{fancybox,framed}
+\usepackage{footnote}
+\makesavenoteenv[FramedParagraphWithFootnotes]{framed} % for author notes
 
 % Article frontmatter
 % ===================
@@ -67,10 +70,83 @@ It is diffcult to structure the different aspects in describing the future. We d
 \subsection{What do we want to have achieved by 2035}
 
 \subsection{Definition and Evolution of RSEs}
-How will the Definition of an RSE evolve in ten years?
+\begin{framed}
+How will the definition of an RSE evolve in ten years?
+
 What will not change in the essence of an RSE ten years from now?
-Here we consider how the topics of RSEng will change in the face of the digitalization of society.
-Also here: What will our topics be after version control doesn’t need to be taught anymore? Digitalisation will also feature more heavily in the domain curricula.
+\end{framed}
+% Here we consider how the topics of RSEng will change in the face of the digitalization of society.
+% Also here: What will our topics be after version control doesn't need to be taught anymore?
+% Digitalisation will also feature more heavily in the domain curricula.
+
+The digital skills of domain scientists will increase,
+and software will become easier to interact with,
+reducing reliance on RSEs to train newcomers on the most basic tasks
+(JN: for example, versioning and archiving?).
+User training sessions might focus on more advanced topics
+that cater to a smaller audience, or involve mentoring more frequently.
+
+Regarding the definition of RSEs, we will still have a spectrum of competencies,
+from full professional RSEs to domain scientists who develop research software.
+While the RSE core competencies\cite{Goth2024} might remain unchanged,
+there might be a shift in the responsibilities of RSEs,
+in the form of a partial reallocation of the training budget
+to the other core competencies.
+
+What will \emph{not} change over that timeframe is the RSE's ability to remain
+flexible and embrace change. Keep an eye open and pick up tools and skills
+as needed as we go along.
+Communication and collaboration skills will remain essential to engage
+with domain scientists and help them find technical solutions.
+
+\begin{FramedParagraphWithFootnotes}
+JN-NOTE:
+The Covid-19 pandemic acted as a catalyst for the digital transformation
+of higher education\cite{Bygstad2022}. Students and early-career researchers
+are now more familiar with digital learning tools, which lead to a shift
+in the responsibilities of teachers. To quote from the original study,
+``with so many digital resources at hand,
+the task of the lecturer will be fewer lectures,
+and to act more as a facilitator of resources,
+and to monitor activities and results over time.''\cite{Bygstad2022}
+
+RSE-relevant open educational resources and master's programmes are tracked
+in the Learning and Teaching RSE database\footnote{\url{https://de-rse.org/learn-and-teach/}}
+and UK SSI resources hub\footnote{\url{https://www.software.ac.uk/resource-hub}}.
+The Carpentries now offer specialised software workshops
+for data scientists\footnote{\url{https://datacarpentry.org}},
+librarians\footnote{\url{https://librarycarpentry.org}},
+and soon HPC practitioners\footnote{\url{https://www.hpc-carpentry.org}}.
+\end{FramedParagraphWithFootnotes}
+
+\begin{FramedParagraphWithFootnotes}
+JN-NOTE:
+In recent years, we saw the formation of RSE institutes and advocacy groups, such as
+the UK Software Sustainability Institute\footnote{\url{https://www.software.ac.uk}},
+the US Research Software Sustainability Institute\footnote{\url{https://urssi.us}},
+the European Virtual Institute for Research Software Excellence\footnote{\url{https://everse.software}},
+and the EOSC Opportunity Area Expert Group 7 on Research Software%
+\footnote{\url{https://eosc.eu/opportunity-area-exp/oa7-research-software}}.
+We expect these initiatives to help increase the visibility and accelerate
+the professionalisation of the RSE role.
+In addition, a multitude of RSE communities self-organised at the national
+and regional level to support more viable RSE career paths in academia.
+We can expect RSEs to become more easily accessible,
+possibly through centrally-funded long-term positions at research institutions.
+\end{FramedParagraphWithFootnotes}
+
+\begin{FramedParagraphWithFootnotes}
+JN-NOTE:
+New RSE specialisations might arise.
+HPC-RSE and AI-RSE are quite recent developments,
+whose appeal is stimulated by large public and private
+investments in HPC facilities and AI technologies.
+We could imagine new RSE specialisations to emerge in the fields
+of quantum computing and federated online platforms.
+% European AI factories: https://digital-strategy.ec.europa.eu/en/policies/ai-factories
+% European federation platform for HPC: https://eurohpc-ju.europa.eu/paving-way-eurohpc-federation-platform-2024-12-19_en
+% European quantum computing: https://digital-strategy.ec.europa.eu/en/policies/quantum
+\end{FramedParagraphWithFootnotes}
 
 
 \subsection{Education, and changes in the educational system}
