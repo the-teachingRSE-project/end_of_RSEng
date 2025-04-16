@@ -8,6 +8,66 @@
 \usepackage{fancybox,framed}
 \usepackage{footnote}
 \makesavenoteenv[FramedParagraphWithFootnotes]{framed} % for author notes
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[most]{tcolorbox}
+
+
+
+
+
+\newtcbtheorem[number within=section]{whatis}{What is 2035}{
+  enhanced,
+  segmentation engine=empty,
+%  beamer,
+fuzzy shadow={2mm}{-1mm}{0mm}{0.1mm}%
+{black!50!white},
+  sharp corners,
+  attach boxed title to top left={
+    yshifttext=-1mm
+  },
+%  halign lower=flush center,
+  colback=white,
+  colframe=Maroon!75!white,
+  fonttitle=\bfseries,
+  attach boxed title to top left={yshift=-2mm,xshift=3mm},
+  fontlower=\itshape,
+  boxed title style={
+    sharp corners,
+    size=small,
+    colback=Maroon!75!black,
+    colframe=Maroon!75!black,
+  } 
+}{ist}
+
+\newtcbtheorem[number within=section]{story}{Story}{
+  enhanced,
+  segmentation engine=empty,
+%  beamer,
+fuzzy shadow={2mm}{-1mm}{0mm}{0.1mm}%
+{black!50!white},
+  sharp corners,
+  attach boxed title to top right={
+    yshifttext=-1mm
+  },
+%  halign lower=flush center,
+  colback=white,
+  colframe=ForestGreen!75!white,
+  fonttitle=\bfseries,
+  attach boxed title to top right={yshift=-2mm,xshift=3mm},
+  fontlower=\itshape,
+  boxed title style={
+    sharp corners,
+    size=small,
+    colback=ForestGreen!75!black,
+    colframe=ForestGreen!75!black,
+  }
+}{str}
+
+
+
+
+
 
 % Article frontmatter
 % ===================
@@ -203,10 +263,15 @@ MM-NOTE: (Flo believes it was from Michele) Are we assuming that progress will b
 
 
 \subsection{What are new tasks of RTPs?}
-FG-NOTE: RSEs are one type of specialization of RTPs ins science. Do we see any other?
+\begin{story}{text 1 }{text 2}
+ FG-NOTE: RSEs are one type of specialization of RTPs ins science. Do we see any other?
+\end{story}
 
 \subsection{Impact of Alternate Career Paths for Researchers on the Structure of Research Institutes}
+\begin{whatis}{text 1 }{text 2}
 FG-NOTE: By Nick. I've put it here, due to the realtion with the RTP question.
+\end{whatis}
+
 
 
 \subsection{Impact of Complexity and Usability in Research Software}
