@@ -15,8 +15,8 @@
 
 
 
-
-\newtcbtheorem[number within=section]{whatis}{What is 2035}{
+\newcounter{whatiscounter}
+\newtcbtheorem[use counter=whatiscounter, number format=\Alph]{whatis}{What is 2035}{
   enhanced,
   segmentation engine=empty,
 %  beamer,
@@ -40,7 +40,8 @@ fuzzy shadow={2mm}{-1mm}{0mm}{0.1mm}%
   } 
 }{ist}
 
-\newtcbtheorem[number within=section]{story}{Story}{
+\newcounter{storycount}
+\newtcbtheorem[use counter=storycount]{story}{Story}{
   enhanced,
   segmentation engine=empty,
 %  beamer,
@@ -309,17 +310,10 @@ Her son Kyle on the other hand started out with a degree in Physics and then too
 but quickly decided that work in academia with its time limited contracts is not attractive.
 Governments around the world are struggling to reposition themselves in this emerging deglobalized world with its new blocks
 and therefore have deprioritized publicly funded research. Kyle decided to go to a defence company since they offer a
-more secure employment in this environment.
+more secure employment in this polarized world.
 \end{story}
 
-\subsection{What are new tasks of RTPs?}
- FG-NOTE: RSEs are one type of specialization of RTPs in science. Do we see any other?
-
-\subsection{Impact of Alternate Career Paths for Researchers on the Structure of Research Institutes}
-
-FG-NOTE: By Nick. I've put it here, due to the realtion with the RTP question.
-
-\subsection{How have academic Institutions transformed by then? ( Point 4 in the issue )}
+\subsection{How have academic Institutions transformed by then?}
 \begin{whatis}{What do we want to have achieved}{acedemic}
 We hope to see that universities use the presence of an RSE Department actively as a means to differentiate themselves from other universities.
 We hope that the central RSE units have local RSE representatives, or even small RSE groups that handle tasks within a department to oversee specific projects[FIXME: cite group paper].
