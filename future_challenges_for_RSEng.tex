@@ -15,8 +15,8 @@
 
 
 
-
-\newtcbtheorem[number within=section]{whatis}{What is 2035}{
+\newcounter{whatiscounter}
+\newtcbtheorem[use counter=whatiscounter, number format=\Alph]{whatis}{What is 2035}{
   enhanced,
   segmentation engine=empty,
 %  beamer,
@@ -40,7 +40,8 @@ fuzzy shadow={2mm}{-1mm}{0mm}{0.1mm}%
   } 
 }{ist}
 
-\newtcbtheorem[number within=section]{story}{Story}{
+\newcounter{storycount}
+\newtcbtheorem[use counter=storycount]{story}{Story}{
   enhanced,
   segmentation engine=empty,
 %  beamer,
@@ -280,18 +281,39 @@ FG-NOTE: I wonder if we need a separation between education of RSEs and changes 
 Is it better than cheap PhDs?
 
 \subsection{Ethics and social consideration}
-FG-NOTE: Given what ChatGPT has put in there, I wonder if we need to separate these two items
+The ethics and values of the Research Software Engineer are grounded in their practice.
+They commit to the health, safety and welfare of the public and act in the interest of society, their employer and their clients \cite{Goth2023}.
+Sometimes these values are in direct conflict with the aims of their institution.
+For example, their PI might insist on quickly developing some software without adhering to current best practices.
+Another example might be that they are developing code that can also be used for military purposes, such as numerical solvers or computer vision systems.
+Like engineers, RSEs take the responsibility for the software they develop.
+RSEs need to be aware of these issues and develop their own ``red lines''.
+
+RSEs are publicly funded.
+Similarly to how data collected by scientists should adhere to the FAIR principles \cite{FAIR}, research software developed by RSEs should adhere to the FAIR4RS principles~\cite{FAIR4RS}.
+
+A code of ethics and professional conduct for RSEs should be developed by institutions together with RSEs themselves.
+This can then form the basis for institutional policies and guidelines.
+
 MM-NOTE: (Flo believes it was from Michele) Are we assuming that progress will bring prosperity? Will we remain constrained by needing to produce products/artifacts?
 
-- Military or other sensitive applications:
-  - RSEs (like physicists, mathematicians, etc.) might face ethical dilemmas if their work can be repurposed for weaponry.
   - Importance of having personal “red lines” and awareness of how software can be used.
 
-- Corporate dominance:
-  - AI and coding platforms might be increasingly controlled by a small number of large corporations.
-  - RSE community might need to develop or advocate for open-source alternatives.
+\begin{story}{The greater world of Kim and Kay}{ethics}
+10 years have passed since Kim and Kay have started on their journey of being RSEs. Back then,
+at the universities of Eden and Utopia, life was more orderly and harmonious. Kay is working in a project that develops
+software for cheap water monitoring devices in the global south. Kim is currently designing the software service stack
+at her university, and increasingly struggles to find compelling Open Source alternatives that let's them keep their data
+to software that is backed by large corporate entities. So far she still has the support of her university board, since it values
+strategic autonomy.
+Her son Kyle on the other hand started out with a degree in Physics and then took one of the newly created RSE Master courses,
+but quickly decided that work in academia with its time limited contracts is not attractive.
+Governments around the world are struggling to reposition themselves in this emerging deglobalized world with its new blocks
+and therefore have deprioritized publicly funded research. Kyle decided to go to a defence company since they offer a
+more secure employment in this polarized world.
+\end{story}
 
-\subsection{How have academic Institutions transformed by then? ( Point 4 in the issue )}
+\subsection{How have academic Institutions transformed by then?}
 \begin{whatis}{What do we want to have achieved}{acedemic}
 We hope to see that universities use the presence of an RSE Department actively as a means to differentiate themselves from other universities.
 We hope that the central RSE units have local RSE representatives, or even small RSE groups that handle tasks within a department to oversee specific projects[FIXME: cite group paper].
