@@ -1,4 +1,4 @@
-# end_of_RSEng
+# challenges_of_RSEng
 A project to host the resources for the End of RSEng workshop.
 
 The live manuscript is available as
