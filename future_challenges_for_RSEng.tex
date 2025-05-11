@@ -67,7 +67,8 @@ fuzzy shadow={2mm}{-1mm}{0mm}{0.1mm}%
 }{str}
 
 
-
+\newcommand{\Eg}{E.\,g.}
+\newcommand{\eg}{e.\,g.}
 
 
 
@@ -122,7 +123,8 @@ In this world we will consider the dimensions of
 \item Evolution of the term RSEs
 \item The development of academic institutions
 \item What will the impact of AI be to the work of RSEs?
-\item How will academic education have transformed by then
+\item How will academic education have transformed by then,
+\item The Development of the RSE community,
 \item Ethics and social considerations
 \end{itemize}
 In each aspect we will quickly summarise on what we want to have achieved by then, and what will be the challenges that arise from that.
@@ -173,6 +175,7 @@ Nevertheless, we decided to consider
 \item What the impact of AI to the work of RSEs will look like,
 \item Changes to the Academic Institutions,
 \item Impact of alternate career paths for RSEs and other RTPs (\emph{Research Technical Professional}s).
+\item Development of the RSE community,
 \item Ethics and social considerations,
 \end{itemize}
 
@@ -193,16 +196,11 @@ of their future in respective small story boxes.
 
 
 \subsection{Definition and Evolution of RSEs}
-\begin{framed}
-\hfill How will the definition of an RSE evolve in ten years?\\
-
-\hfill What will not change in the essence of an RSE ten years from now?
-\end{framed}
 % Here we consider how the topics of RSEng will change in the face of the digitalization of society.
 % Also here: What will our topics be after version control doesn't need to be taught anymore?
 % Digitalisation will also feature more heavily in the domain curricula.
-
-The digital skills of domain scientists will increase,
+In this discussions the workshop participants found that
+the digital skills of domain scientists will increase,
 and software will become easier to interact with,
 reducing reliance on RSEs to train newcomers on the most basic tasks
 (JN: for example, versioning and archiving?)
@@ -210,21 +208,20 @@ reducing reliance on RSEs to train newcomers on the most basic tasks
 User training sessions might focus on more advanced topics
 that cater to a smaller audience, or involve mentoring more frequently.
 
-Regarding the definition of RSEs, we will still have a spectrum of competencies,
-from full professional RSEs to domain scientists who develop research software.
 While the RSE core competencies\cite{Goth2024} might remain unchanged,
 there might be a shift in the responsibilities of RSEs,
 in the form of a partial reallocation of the training budget
 to the other core competencies.
+Regarding the definition of RSEs, we will still have a spectrum of competencies,
+from full professional RSEs to domain scientists who develop research software.
 
 What will \emph{not} change over that timeframe is the RSE's ability to remain
 flexible and embrace change. Keep an eye open and pick up tools and skills
 as needed as we go along.
 Communication and collaboration skills will remain essential to engage
-with domain scientists and help them find technical solutions.
+with domain scientists and help them find technical solutions.\\
 
-\begin{FramedParagraphWithFootnotes}
-JN-NOTE:
+Looking at that on a broader scale, especially the education aspect deserves some attention.\\
 The Covid-19 pandemic acted as a catalyst for the digital transformation
 of higher education\cite{Bygstad2022}. Students and early-career researchers
 are now more familiar with digital learning tools, which lead to a shift
@@ -241,10 +238,8 @@ The Carpentries now offer specialised software workshops
 for data scientists\footnote{\url{https://datacarpentry.org}},
 librarians\footnote{\url{https://librarycarpentry.org}},
 and soon HPC practitioners\footnote{\url{https://www.hpc-carpentry.org}}.
-\end{FramedParagraphWithFootnotes}
 
-\begin{FramedParagraphWithFootnotes}
-JN-NOTE:
+\subsection{Development of the RSE community}
 In recent years, we saw the formation of RSE institutes and advocacy groups, such as
 the UK Software Sustainability Institute\footnote{\url{https://www.software.ac.uk}},
 the US Research Software Sustainability Institute\footnote{\url{https://urssi.us}},
@@ -259,54 +254,49 @@ In addition, a multitude of RSE communities self-organised at the national
 and regional level to support more viable RSE career paths in academia.
 We can expect RSEs to become more easily accessible,
 possibly through centrally-funded long-term positions at research institutions.
-\end{FramedParagraphWithFootnotes}
+The community of RSE's will get a significant boost in their acceptance if RSE Masters programmes
+become available at various universities.
 
-\begin{FramedParagraphWithFootnotes}
-JN-NOTE:
-New RSE specialisations might arise.
-HPC-RSE and AI-RSE are quite recent developments,
-whose appeal is stimulated by large public and private
-investments in HPC facilities and AI technologies.
-We could imagine new RSE specialisations to emerge in the fields
-of quantum computing and federated online platforms.
-% European AI factories: https://digital-strategy.ec.europa.eu/en/policies/ai-factories
-% European federation platform for HPC: https://eurohpc-ju.europa.eu/paving-way-eurohpc-federation-platform-2024-12-19_en
-% European quantum computing: https://digital-strategy.ec.europa.eu/en/policies/quantum
-\end{FramedParagraphWithFootnotes}
-
-\begin{FramedParagraphWithFootnotes}
-GC-NOTE: With longer-term funding and more trust to pick up longer term projects,
-some RSEs can focus on code modernization, cleanup, and modularization,
-which can pay off in faster and larger development in the future.
-This is not possible by short-term funded solo RSEs.
-\end{FramedParagraphWithFootnotes}
-
-\subsection{Education, and changes in the educational system}
-
-\begin{FramedParagraphWithFootnotes}
-FG-NOTE: I wonder if we need a separation between education of RSEs and changes in the education of the broader society.
-\end{FramedParagraphWithFootnotes}
-
-\begin{FramedParagraphWithFootnotes}
-GC-NOTE: Digital competencies in the general population continue to increase, making jumping to software engineering easier than before.
-
-GC-NOTE: By that point, we have an RSE Master's.
-\end{FramedParagraphWithFootnotes}
 
 \subsection{Impact of AI and automation}
-Is it better than cheap PhDs?
+AI is already transforming research processes by enabling rapid analysis of massive datasets, uncovering patterns and insights that would be impossible or prohibitively time-consuming for humans alone to find.
+In research and development, AI accelerates scientific breakthroughs in fields like healthcare, climate science, and materials engineering by automating complex modeling and predictive tasks.
+For software development, AI-powered tools automate code generation, bug detection, and testing, significantly increasing productivity and reducing human error.
+Developers are shifting from manual coding to orchestrating AI-driven workflows, focusing more on high-level design, integration, and creative problem-solving while AI handles repetitive or routine tasks.
+The integration of AI is democratizing access to advanced technologies and analytics, enabling non-experts to participate in research and software creation, and fostering greater collaboration across disciplines.
+As AI continues to evolve, it will further blur the lines between human and machine roles, making research and software development faster, more efficient, and more innovative than ever before.
+With the general availability of AI the interaction with researchers will change at a fundamental level.
+Whereas previously RSEs have been points of knowledge that could translate human language formulated problems into technical descriptions and then provide solutions to it,
+It can be foreseen, that AI drives this low-key interaction to a highly specialized level of knowledge,
+since AI copilots are available 24/7.
 
-\begin{FramedParagraphWithFootnotes}
-FG-NOTE: AI will change the interaction with researchers at a fundamental level. Whereas previously RSEs have been points of knowledge that could translate human language formulated problems into technical descriptions and then provide solutions to it,
-I foresee that AI drives this low-key interaction to a highly specialized level of knowledge, since the availability of AI is far better.
-\end{FramedParagraphWithFootnotes}
+Currently we are expanding and documenting our work in the open and making our code available,
+therefore there will be more structured material to train GenAI on.
+However, as people get quicker answers from GenAI, the community resources (\eg Stack Overflow, Wikipedia)
+get poorer.
 
-\begin{FramedParagraphWithFootnotes}
-GC-NOTE: As we continue and expand documenting our work in the open and making our code available,
-there will be more structured material to train GenAI on.
+\subsection{Impact of Complexity and Usability in Research Software}
 
-However, as people get quicker answers from GenAI, the community resources (Stack Overflow, Wikipedia) get poorer.
-\end{FramedParagraphWithFootnotes}
+The workshop participants found that in earlier learning stages,
+details may be intentionally hidden,
+fearing a diminishing capability to handle technical complexity in research environments.
+As a result, RSEs invest more effort in making individual research software components
+less complex with better user experience.
+This made participants worry about growing mismatch of peoples' expectations.
+Participants expected an over-reliance on generative AI tools as an extreme manifestation of this issue.
+No concrete examples were given on which complexities are now hidden behind abstractions.
+
+We acknowledge but would also like to challenge the observations of the participants.
+We believe that ``we are standing on the shoulders of giants'':
+By reducing the complexity of individual software components,
+we are now able to develop systems of complexity and capability not previously possible,
+allowing the scientific community to address questions not previously in grasp.
+When it comes to teaching, it is true that students need to learn how to handle complexity,
+but it is also important to learn how to abstract from details
+by building hierarchical systems from these abstractions encapsulated in reusable components, thereby managing complexity.
+It is clear that we need both RSEs that can dive deep into single projects of significant complexity,
+as well as RSEs that can manage complex systems of almost black-box components,
+and the future of RSE education should aim to prepare students for both roles.
 
 \subsection{Ethics and social consideration}
 
@@ -318,7 +308,7 @@ Sometimes these values are in direct conflict with the aims of their institution
 A code of ethics and professional conduct for RSEs should be developed by institutions together with RSEs themselves. This can then form the basis for institutional policies and guidelines.
 
 % society implications
-The technology people working as RSE might have, well directly or indirectly, ethical implications in areas such as social engineering [TODO find source], climate [TODO find sourc] and more.
+The technology people working as RSE might have, well directly or indirectly, ethical implications in areas such as social engineering [TODO find source], climate [TODO find source] and more.
 Another example might be that they are developing code that can also be used for military purposes, such as numerical solvers or computer vision systems.
 Like engineers, RSEs take the responsibility for the software they develop.
 RSEs need to be aware of these issues and develop their own ``red lines''.
@@ -347,7 +337,22 @@ and therefore have deprioritized publicly funded research. Kyle decided to go to
 more secure employment in this polarized world.
 \end{story}
 
+\subsection{Education, and changes in the educational system}
+Digital competencies in the general population continue to increase, making jumping to software engineering easier than before.
+
+\begin{whatis}{What do we want to have achieved}{academic}
+School curricula have embraced the digital transformation, and have included basics of computer interaction
+in every schoolyear.
+In Universities, the first generations of RSE-Master graduates find their ay into research departments,
+and accelerate the pace of science.
+\end{whatis}
+
 \subsection{How have academic Institutions transformed by then?}
+GC-NOTE: With longer-term funding and more trust to pick up longer term projects,
+some RSEs can focus on code modernization, cleanup, and modularization,
+which can pay off in faster and larger development in the future.
+This is not possible by short-term funded solo RSEs.
+
 \begin{whatis}{What do we want to have achieved}{academic}
 We hope to see that universities use the presence of an RSE Department actively as a means to differentiate themselves from other universities.
 We hope that the central RSE units have local RSE representatives, or even small RSE groups that handle tasks within a department to oversee specific projects[FIXME: cite group paper].
@@ -390,6 +395,18 @@ if at least university regulations would be homogenized, no?
 
 \subsection{What are new tasks of RTPs?}
  FG-NOTE: RSEs are one type of specialization of RTPs ins science. Do we see any other?
+\begin{FramedParagraphWithFootnotes}
+JN-NOTE:
+New RSE specialisations might arise.
+HPC-RSE and AI-RSE are quite recent developments,
+whose appeal is stimulated by large public and private
+investments in HPC facilities and AI technologies.
+We could imagine new RSE specialisations to emerge in the fields
+of quantum computing and federated online platforms.
+% European AI factories: https://digital-strategy.ec.europa.eu/en/policies/ai-factories
+% European federation platform for HPC: https://eurohpc-ju.europa.eu/paving-way-eurohpc-federation-platform-2024-12-19_en
+% European quantum computing: https://digital-strategy.ec.europa.eu/en/policies/quantum
+\end{FramedParagraphWithFootnotes}
 
 \subsection{Impact of Alternate Career Paths for Researchers on the Structure of Research Institutes}
 
@@ -406,29 +423,6 @@ We expect funding in central groups to evolve from initially temporary positions
 as the groups themselves prove themselves valuable.
 Embedded RSEs and central groups will need to network with each other,
 and potentially request and coordinate support from external RSEs.
-
-\subsection{Impact of Complexity and Usability in Research Software}
-
-The workshop participants found that in earlier learning stages,
-details may be intentionally hidden,
-fearing a diminishing capability to handle technical complexity in research environments.
-As a result, RSEs invest more effort in making individual research software components
-less complex with better user experience.
-This made participants worry about growing mismatch of peoples' expectations.
-Participants expected an over-reliance on generative AI tools as an extreme manifestation of this issue.
-No concrete examples were given on which complexities are now hidden behind abstractions.
-
-We acknowledge but would also like to challenge the observations of the participants.
-We believe that ``we are standing on the shoulders of giants'':
-By reducing the complexity of individual software components,
-we are now able to develop systems of complexity and capability not previously possible,
-allowing the scientific community to address questions not previously in grasp.
-When it comes to teaching, it is true that students need to learn how to handle complexity,
-but it is also important to learn how to abstract from details
-by building hierarchical systems from these abstractions encapsulated in reusable components, thereby managing complexity.
-It is clear that we need both RSEs that can dive deep into single projects of significant complexity,
-as well as RSEs that can manage complex systems of almost black-box components,
-and the future of RSE education should aim to prepare students for both roles.
 
 
 \section{What is in this future for RSEs and where to go from here?}
@@ -448,7 +442,7 @@ We thank all the participants of our workshop at deRSE25 in Karlsruhe for their 
 
 % Bibliography with BibTeX
 % ========================
-\bibliographystyle{eceasst}
-\bibliography{bibliography/bibliography,extra}
+%\bibliographystyle{eceasst}
+%\bibliography{bibliography/bibliography,extra}
 
 \end{document}
