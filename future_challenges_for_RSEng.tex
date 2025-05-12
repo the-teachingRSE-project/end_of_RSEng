@@ -67,7 +67,8 @@ fuzzy shadow={2mm}{-1mm}{0mm}{0.1mm}%
 }{str}
 
 
-
+\newcommand{\Eg}{E.\,g.}
+\newcommand{\eg}{e.\,g.}
 
 
 
@@ -143,28 +144,15 @@ of their future in respective small story boxes.
  \end{story}
 
 \section{Aspects of this future}
-It is difficult to structure the different aspects in describing the future. We decided to consider
-\begin{itemize}
-\item The evolution of the term RSE,
-\item How education is reshaped by the digital transformation,
-\item What the impact of AI to the work of RSEs will look like,
-\item Changes to the Academic Institutions,
-\item Ethics and social considerations,
-\item Impact of alternate career paths for RTPs (\emph{Research Technical Professional}s).
-\end{itemize}
-
 %\subsection{What do we want to have achieved by 2035}
-
 Looking ahead over a 10-year timeframe, we hope that the RSE community will have
 contributed to make research software and its outputs
 more sustainable, robust and maintainable. We see this happening in a number of ways. However,
 we want to ensure that one of the core achievements made by the RSE community in this time
 frame is putting the infrastructure and training opportunities in place, alongside the necessary
 advocacy, to ensure that researchers receive core software skills as part of their scientific training.
-
 With development of software tools and scripted workflows becoming an increasingly important part of everyday
 research activities, this is vital and it will allow RSEs to focus on other more advanced and specialist
-% MM-NOTE: if "this is vital" is referring to "software skills" it's not clear -- different paragraphs
 areas. In this context, we do not foresee the demise of RSE as an independent role. However, we
 do see the work of RSEs developing and shifting as the research community changes.
 
@@ -183,50 +171,71 @@ deployment of their code as well as integration with central domain specific inf
 Again, all these skills will, we anticipate, be gained as part of training infrastructure that will
 provide domain scientists with software development expertise as part of their core scientific training.
 
-So where do RSEs fit into this picture? We expect to see RSEs providing technical skills and input
-to research activities in a range of different areas, including the following:
+So where do RSEs fit into this picture? Even today we expect to see RSEs providing technical skills and input
+to research activities in a range of different areas, such as
+High-quality, robust architecture and design for research software,
+Seamless integration with research and data infrastructures,
+Development of software for novel and emerging architectures,
+Application of specialist numerical and statistical methods within software,
+Optimisation of codes for use on high-performance computing infrastructure,
+and Green computing - efficient implementations of algorithms/methods and use of hardware
+
+It is already difficult to structure the spectrum of RSE tasks and responsibilities today (FIXME: Willi Hasselbrings classification paper?)
+and it is even more hopeless to structure the aspects that will become relavant for the RSE community in the future.
+Nevertheless, we decided to consider
 \begin{itemize}
-  \item High-quality, robust architecture and design for research software
-  \item Seamless integration with research and data infrastructures
-  \item Development of software for novel and emerging architectures
-  \item Application of specialist numerical and statistical methods within software
-  \item Optimisation of codes for use on high-performance computing infrastructure
-  \item Green computing - efficient implementations of algorithms/methods and use of hardware
-  \item ...
+\item The evolution of the term RSE,
+\item How education is reshaped by the digital transformation,
+\item What the impact of AI to the work of RSEs will look like,
+\item Changes to the Academic Institutions,
+\item Impact of alternate career paths for RSEs and other RTPs (\emph{Research Technical Professional}s).
+\item Development of the RSE community,
+\item Ethics and social considerations,
 \end{itemize}
 
-\subsection{Definition and Evolution of RSEs}
-\begin{framed}
-\hfill How will the definition of an RSE evolve in ten years?\\
 
-\hfill What will not change in the essence of an RSE ten years from now?
-\end{framed}
+\begin{story}{Introduction}{intro}
+In order to give a more explicit setting, imagine a world ten years from now.
+Not too much to be overwhelmingly far in the future, but distant enough for some changes to occur.
+Over this timeframe Kim\cite{Anzt2021} and Kay\cite{Goth2024}
+were able to ride the waves of their career in Research Software Engineering and are now pondering early retirement on a sunset blessed beach.
+%MM-NOTE: the above scenario (early retirement) is contrary to all trends in retirement age development of public employees across the "global north".
+But the world has moved on.
+When they look back, what will they see as problems which are now solved?
+Which tasks are persisting, where they are now happy that a younger generation is now taking up the baton and carries forward their work.
+What issues have newly emerged, where they are now just happy to say: “Oh well… My successor takes care of that”.\\
+In order to bring this future to life these two personas will accompany us and we will shed light on certain aspects
+of their future in respective small story boxes.
+ \end{story}
+
+
+\subsection{Definition and Evolution of RSEs}
 % Here we consider how the topics of RSEng will change in the face of the digitalization of society.
 % Also here: What will our topics be after version control doesn't need to be taught anymore?
 % Digitalisation will also feature more heavily in the domain curricula.
-
-The digital skills of domain scientists will increase,
+In this discussions the workshop participants found that
+the digital skills of domain scientists will increase,
 and software will become easier to interact with,
 reducing reliance on RSEs to train newcomers on the most basic tasks
-(JN: for example, versioning and archiving?).
+(JN: for example, versioning and archiving?)
+(GC: Higher-level and more intuitive workflows that require less training).
 User training sessions might focus on more advanced topics
 that cater to a smaller audience, or involve mentoring more frequently.
 
-Regarding the definition of RSEs, we will still have a spectrum of competencies,
-from full professional RSEs to domain scientists who develop research software.
 While the RSE core competencies\cite{Goth2024} might remain unchanged,
 there might be a shift in the responsibilities of RSEs,
 in the form of a partial reallocation of the training budget
 to the other core competencies.
+Regarding the definition of RSEs, we will still have a spectrum of competencies,
+from full professional RSEs to domain scientists who develop research software.
 
 What will \emph{not} change over that timeframe is the RSE's ability to remain
 flexible and embrace change. Keep an eye open and pick up tools and skills
 as needed as we go along.
 Communication and collaboration skills will remain essential to engage
-with domain scientists and help them find technical solutions.
+with domain scientists and help them find technical solutions.\\
 
-\begin{FramedParagraphWithFootnotes}
-JN-NOTE:
+Looking at that on a broader scale, especially the education aspect deserves some attention.\\
 The Covid-19 pandemic acted as a catalyst for the digital transformation
 of higher education\cite{Bygstad2022}. Students and early-career researchers
 are now more familiar with digital learning tools, which lead to a shift
@@ -243,10 +252,8 @@ The Carpentries now offer specialised software workshops
 for data scientists\footnote{\url{https://datacarpentry.org}},
 librarians\footnote{\url{https://librarycarpentry.org}},
 and soon HPC practitioners\footnote{\url{https://www.hpc-carpentry.org}}.
-\end{FramedParagraphWithFootnotes}
 
-\begin{FramedParagraphWithFootnotes}
-JN-NOTE:
+\subsection{Development of the RSE community}
 In recent years, we saw the formation of RSE institutes and advocacy groups, such as
 the UK Software Sustainability Institute\footnote{\url{https://www.software.ac.uk}},
 the US Research Software Sustainability Institute\footnote{\url{https://urssi.us}},
@@ -261,116 +268,26 @@ In addition, a multitude of RSE communities self-organised at the national
 and regional level to support more viable RSE career paths in academia.
 We can expect RSEs to become more easily accessible,
 possibly through centrally-funded long-term positions at research institutions.
-\end{FramedParagraphWithFootnotes}
+The community of RSE's will get a significant boost in their acceptance if RSE Masters programmes
+become available at various universities.
 
-\begin{FramedParagraphWithFootnotes}
-JN-NOTE:
-New RSE specialisations might arise.
-HPC-RSE and AI-RSE are quite recent developments,
-whose appeal is stimulated by large public and private
-investments in HPC facilities and AI technologies.
-We could imagine new RSE specialisations to emerge in the fields
-of quantum computing and federated online platforms.
-% European AI factories: https://digital-strategy.ec.europa.eu/en/policies/ai-factories
-% European federation platform for HPC: https://eurohpc-ju.europa.eu/paving-way-eurohpc-federation-platform-2024-12-19_en
-% European quantum computing: https://digital-strategy.ec.europa.eu/en/policies/quantum
-\end{FramedParagraphWithFootnotes}
-
-
-\subsection{Education, and changes in the educational system}
-FG-NOTE: I wonder if we need a separation between education of RSEs and changes in the education of the broader society.
 
 \subsection{Impact of AI and automation}
-Is it better than cheap PhDs?
-FG-NOTE: AI will change the interaction with researchers at a fundamental level. Whereas previously RSEs have been points of knowledge that could translate human language formulated problems into technical descriptions and then provide solutions to it,
-I foresee that AI drives this low-key interaction to a highly specialized level of knowledge, since the availability of AI is far better.
+AI is already transforming research processes by enabling rapid analysis of massive datasets, uncovering patterns and insights that would be impossible or prohibitively time-consuming for humans alone to find.
+In research and development, AI accelerates scientific breakthroughs in fields like healthcare, climate science, and materials engineering by automating complex modeling and predictive tasks.
+For software development, AI-powered tools automate code generation, bug detection, and testing, significantly increasing productivity and reducing human error.
+Developers are shifting from manual coding to orchestrating AI-driven workflows, focusing more on high-level design, integration, and creative problem-solving while AI handles repetitive or routine tasks.
+The integration of AI is democratizing access to advanced technologies and analytics, enabling non-experts to participate in research and software creation, and fostering greater collaboration across disciplines.
+As AI continues to evolve, it will further blur the lines between human and machine roles, making research and software development faster, more efficient, and more innovative than ever before.
+With the general availability of AI the interaction with researchers will change at a fundamental level.
+Whereas previously RSEs have been points of knowledge that could translate human language formulated problems into technical descriptions and then provide solutions to it,
+It can be foreseen, that AI drives this low-key interaction to a highly specialized level of knowledge,
+since AI copilots are available 24/7.
 
-\subsection{Ethics and social consideration}
-
-The ethics and values of the Research Software Engineer are grounded in their practice.
-They commit to the health, safety and welfare of the public and act in the interest of society, their employer and their clients \cite{Goth2023}.
-
-% institutional bonds and ethics
-Sometimes these values are in direct conflict with the aims of their institution. For example, their PI might insist on quickly developing some software without adhering to current best practices.
-A code of ethics and professional conduct for RSEs should be developed by institutions together with RSEs themselves. This can then form the basis for institutional policies and guidelines.
-
-% society implications
-The technology people working as RSE might have, well directly or indirectly, ethical implications in areas such as social engineering [TODO find source], climate [TODO find sourc] and more.
-Another example might be that they are developing code that can also be used for military purposes, such as numerical solvers or computer vision systems.
-Like engineers, RSEs take the responsibility for the software they develop.
-RSEs need to be aware of these issues and develop their own ``red lines''.
-
-% data ethics
-Similarly to how data collected by scientists should adhere to the FAIR principles \cite{FAIR}, research software developed by RSEs should adhere to the FAIR4RS principles~\cite{FAIR4RS}.
-
-A code of ethics and professional conduct for RSEs should be developed by institutions together with RSEs themselves.
-This can then form the basis for institutional policies and guidelines.
-
-MM-NOTE: (Flo believes it was from Michele) Are we assuming that progress will bring prosperity? Will we remain constrained by needing to produce products/artifacts?
-
-  - Importance of having personal “red lines” and awareness of how software can be used.
-
-\begin{story}{The greater world of Kim and Kay}{ethics}
-10 years have passed since Kim and Kay have started on their journey of being RSEs. Back then,
-at the universities of Eden and Utopia, life was more orderly and harmonious. Kay is working in a project that develops
-software for cheap water monitoring devices in the global south. Kim is currently designing the software service stack
-at her university, and increasingly struggles to find compelling Open Source alternatives that lets them keep their data
-to software that is backed by large corporate entities. So far she still has the support of her university board, since it values
-strategic autonomy.
-Her son Kyle on the other hand started out with a degree in Physics and then took one of the newly created RSE Master's courses,
-but quickly decided that work in academia with its time limited contracts is not attractive.
-Governments around the world are struggling to reposition themselves in this emerging deglobalized world with its new blocks
-and therefore have deprioritized publicly funded research. Kyle decided to go to a defense company since they offer a
-more secure employment in this polarized world.
-\end{story}
-
-\subsection{How have academic Institutions transformed by then?}
-\begin{whatis}{What do we want to have achieved}{academic}
-We hope to see that universities use the presence of an RSE Department actively as a means to differentiate themselves from other universities.
-We hope that the central RSE units have local RSE representatives, or even small RSE groups that handle tasks within a department to oversee specific projects[FIXME: cite group paper].
-We also hope, that specialized clusters form, with certain RSE units specializing in certain tasks like data management, HPC, or visualization.
-At universities which have them, we want to see that researchers naturally accept them as part of their used services.
-\end{whatis}
-
-\subsubsection{Which challenges will still persist}
-The workshop participants expect that there will still be budgeting and administrative hurdles to creating
-permanent and well-funded RSE teams.
-While we hope that the barrier to researchers diminishes, the workshop participants
-still expect some work to do. We hope that the compartmentalization that occurs will help researchers reprioritize their workload.
-An upcoming challenge will be that, with the emergence of more dedicated RSE units,
-networking between them will come into the foreground, because there should be a strong need to share best practices
-among institutions with successful RSE Teams.
-On a more organisational level, we expect the sharing of models, to fit the different organisational constraints.
-
-What are open questions here?
-Organizations will have to come up with models for hiring people. While
-a standardized RSE Master's makes it easier, it will be interesting to see if
-RSE are still often hired by word of mouth or if the master's really makes it more comparable.
-
-\begin{story}{Changes to the Universities}{changes}
-Kim found work years ago at one of the first RSE units in Arcadia. After a couple of years he moved to the university of
-Avalon which was interested in setting up their own department for RSEs in order to not fall behind the university of Arcadia.
-Kim applies his experiences and improves upon the model set forth by the University of Arcadia. Since the university
-of Avalon has to follow different rules not everything can be straightforwardly adapted. Life would be so much easier,
-if at least university regulations would be homogenized, no?
-\end{story}
-
-\subsection{What are new tasks of RTPs?}
- FG-NOTE: RSEs are one type of specialization of RTPs ins science. Do we see any other?
-
-\subsection{Impact of Alternate Career Paths for Researchers on the Structure of Research Institutes}
-The RSE is probably one of the first professionalizations in the academic mid-level that is able
-to collectively voice their concerns. This enables the possibility to reshape universities.
-If more people are employed as mid-level, this makes a steadier pool of people
-available that can integrate new people that are regularly coming into departments and know the local facilities.
-On the other hand, an upcoming challenge how universities decide to design the contracts of people employed
-in RSE units. Will they be permanent, or will there also be an up-or-out mentality?
-
-As outlined in [cite RSE group paper] not all universities need to opt for strengthening
-the academic mid-level. Some might have chosen to set up external companies to outsource typical RSE tasks,
-thereby providing career paths outside of academia.
-
-FG-NOTE: By Nick. I've put it here, due to the relation with the RTP question.
+Currently we are expanding and documenting our work in the open and making our code available,
+therefore there will be more structured material to train GenAI on.
+However, as people get quicker answers from GenAI, the community resources (\eg Stack Overflow, Wikipedia)
+get poorer.
 
 \subsection{Impact of Complexity and Usability in Research Software}
 
@@ -395,14 +312,141 @@ It is clear that we need both RSEs that can dive deep into single projects of si
 as well as RSEs that can manage complex systems of almost black-box components,
 and the future of RSE education should aim to prepare students for both roles.
 
+\subsection{Ethics and social consideration}
 
-\subsection{What is in this future for RSEs?}
+The ethics and values of the Research Software Engineer are grounded in their practice.
+They commit to the health, safety and welfare of the public and act in the interest of society, their employer and their clients \cite{Goth2023}.
+
+% institutional bonds and ethics
+Sometimes these values are in direct conflict with the aims of their institution. For example, their PI might insist on quickly developing some software without adhering to current best practices.
+A code of ethics and professional conduct for RSEs should be developed by institutions together with RSEs themselves. This can then form the basis for institutional policies and guidelines.
+
+% society implications
+The technology people working as RSE might have, well directly or indirectly, ethical implications in areas such as social engineering [TODO find source], climate [TODO find source] and more.
+Another example might be that they are developing code that can also be used for military purposes, such as numerical solvers or computer vision systems.
+Like engineers, RSEs take the responsibility for the software they develop.
+RSEs need to be aware of these issues and develop their own ``red lines''.
+
+% data ethics
+Similarly to how data collected by scientists should adhere to the FAIR principles \cite{FAIR}, research software developed by RSEs should adhere to the FAIR4RS principles~\cite{FAIR4RS}.
+
+A code of ethics and professional conduct for RSEs should be developed by institutions together with RSEs themselves.
+This can then form the basis for institutional policies and guidelines.
+
+MM-NOTE: (Flo believes it was from Michele) Are we assuming that progress will bring prosperity? Will we remain constrained by needing to produce products/artifacts? (GC: Where "product/artifacts", maybe also "publications"?)
+
+  - Importance of having personal “red lines” and awareness of how software can be used.
+
+\begin{story}{The greater world of Kim and Kay}{ethics}
+10 years have passed since Kim and Kay have started on their journey of being RSEs. Back then,
+at the universities of Eden and Utopia, life was more orderly and harmonious. Kay is working in a project that develops
+software for cheap water monitoring devices in the global south. Kim is currently designing the software service stack
+at her university, and increasingly struggles to find compelling Open Source alternatives that lets them keep their data
+to software that is backed by large corporate entities. So far she still has the support of her university board, since it values
+strategic autonomy.
+Her son Kyle on the other hand started out with a degree in Physics and then took one of the newly created RSE Master's courses,
+but quickly decided that work in academia with its time limited contracts is not attractive.
+Governments around the world are struggling to reposition themselves in this emerging deglobalized world with its new blocks
+and therefore have deprioritized publicly funded research. Kyle decided to go to a defense company since they offer a
+more secure employment in this polarized world.
+\end{story}
+
+\subsection{Education, and changes in the educational system}
+Digital competencies in the general population continue to increase, making jumping to software engineering easier than before.
+
+\begin{whatis}{What do we want to have achieved}{academic}
+School curricula have embraced the digital transformation, and have included basics of computer interaction
+in every schoolyear.
+In Universities, the first generations of RSE-Master graduates find their ay into research departments,
+and accelerate the pace of science.
+\end{whatis}
+
+\subsection{How have academic Institutions transformed by then?}
+GC-NOTE: With longer-term funding and more trust to pick up longer term projects,
+some RSEs can focus on code modernization, cleanup, and modularization,
+which can pay off in faster and larger development in the future.
+This is not possible by short-term funded solo RSEs.
+
+\begin{whatis}{What do we want to have achieved}{academic}
+We hope to see that universities use the presence of an RSE Department actively as a means to differentiate themselves from other universities.
+We hope that the central RSE units have local RSE representatives, or even small RSE groups that handle tasks within a department to oversee specific projects[FIXME: cite group paper].
+We also hope, that specialized clusters form, with certain RSE units specializing in certain tasks like data management, HPC, or visualization.
+At universities which have them, we want to see that researchers naturally accept them as part of their used services.
+\end{whatis}
+
+\subsubsection{Which challenges will still persist}
+The workshop participants expect that there will still be budgeting and administrative hurdles to creating
+permanent and well-funded RSE teams.
+While we hope that the barrier to researchers diminishes, the workshop participants
+still expect some work to do. We hope that the compartmentalization that occurs will help researchers reprioritize their workload.
+An upcoming challenge will be that, with the emergence of more dedicated RSE units,
+networking between them will come into the foreground, because there should be a strong need to share best practices
+among institutions with successful RSE Teams.
+On a more organisational level, we expect the sharing of models, to fit the different organisational constraints.
+
+What are open questions here?
+Organizations will have to come up with models for hiring people. While
+a standardized RSE Master's makes it easier, it will be interesting to see if
+RSE are still often hired by word of mouth or if the master's really makes it more comparable.
+
+\begin{FramedParagraphWithFootnotes}
+  GC-NOTE: New section on "New challenges":
+
+  \begin{itemize}
+    \item Networking of embedded RSEs and RSE units
+    \item Everyone needs infrastructure: does everyone need to host their own infrastructure?
+    \item Everyone hosts their infrastructure, but then everyone stays in silos? We need federated infrastructure.
+  \end{itemize}
+\end{FramedParagraphWithFootnotes}
+
+\begin{story}{Changes to the Universities}{changes}
+Kim found work years ago at one of the first RSE units in Arcadia. After a couple of years he moved to the university of
+Avalon which was interested in setting up their own department for RSEs in order to not fall behind the university of Arcadia.
+Kim applies his experiences and improves upon the model set forth by the University of Arcadia. Since the university
+of Avalon has to follow different rules not everything can be straightforwardly adapted. Life would be so much easier,
+if at least university regulations would be homogenized, no?
+\end{story}
+
+\subsection{What are new tasks of RTPs?}
+ FG-NOTE: RSEs are one type of specialization of RTPs ins science. Do we see any other?
+\begin{FramedParagraphWithFootnotes}
+JN-NOTE:
+New RSE specialisations might arise.
+HPC-RSE and AI-RSE are quite recent developments,
+whose appeal is stimulated by large public and private
+investments in HPC facilities and AI technologies.
+We could imagine new RSE specialisations to emerge in the fields
+of quantum computing and federated online platforms.
+% European AI factories: https://digital-strategy.ec.europa.eu/en/policies/ai-factories
+% European federation platform for HPC: https://eurohpc-ju.europa.eu/paving-way-eurohpc-federation-platform-2024-12-19_en
+% European quantum computing: https://digital-strategy.ec.europa.eu/en/policies/quantum
+\end{FramedParagraphWithFootnotes}
+
+\subsection{Impact of Alternate Career Paths for Researchers on the Structure of Research Institutes}
+
+RSEs can either be embedded in research groups (belonging to the mid-level university staff),
+or be members of larger RSE units. (TODO: Cite RSE groups paper)
+The participants had the opinion that focusing on embedded RSEs would make onboarding new RSEs to existing projects easier.
+This, however, comes with additional funding challenges,
+as long-term funding is more difficult to acquire in lower levels of an organization.
+Third-party funding can mitigate this issue in the mid-term.
+However, the participants considered central RSE groups more likely in the future,
+due to the fact that there are already examples and activities from various universities in this direction
+(examples include the universities of Jena, Heidelberg, Göttingen).
+We expect funding in central groups to evolve from initially temporary positions to permanent positions,
+as the groups themselves prove themselves valuable.
+Embedded RSEs and central groups will need to network with each other,
+and potentially request and coordinate support from external RSEs.
+
+
+\section{What is in this future for RSEs and where to go from here?}
 FG-NOTE: I think we can use this part to wrap things a bit up, and describe how this future then looks like.
 
+GC-NOTE: Shall we add another story box here?
 
-\section{REALLY Long-term(10+ years) aspects}
-Technically this would mean taking everything from the previous section for granted and look
-at what becomes now possible.
+GC-NOTE: RSE develop together with and for scientists.
+Better software leads to better research,
+better research leads to more better software.
 
 \begin{acknowledge}
 % MM-NOTE: I'd keep the following sentence out, out of several reasons.
@@ -412,7 +456,7 @@ We thank all the participants of our workshop at deRSE25 in Karlsruhe for their 
 
 % Bibliography with BibTeX
 % ========================
-\bibliographystyle{eceasst}
-\bibliography{bibliography/bibliography,extra}
+%\bibliographystyle{eceasst}
+%\bibliography{bibliography/bibliography,extra}
 
 \end{document}
