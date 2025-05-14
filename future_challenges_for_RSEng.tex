@@ -76,22 +76,38 @@ fuzzy shadow={2mm}{-1mm}{0mm}{0.1mm}%
 % ===================
 \title{Future challenges for Research Software Engineering} % Title of the article
 %\short{} % Short title of the article (optional)
+\newcommand{\authorRef}[1]{\texorpdfstring{\autref{#1}}{}}
 \author{
-Florian Goth\texorpdfstring{\autref{1}}{},
-Leyla Jael Castro\texorpdfstring{\autref{1}}{},
-Gerasimos Chourdakis\texorpdfstring{\autref{1}}{},
-Simon Christ\texorpdfstring{\autref{1}}{},
-Jeremy Cohen\texorpdfstring{\autref{1}}{},
-Jean-Noël Grad\texorpdfstring{\autref{1}}{},
-Magnus Hagdorn\texorpdfstring{\autref{1}}{},
-Toby Hodges\texorpdfstring{\autref{1}}{},
-Jan Linxweiler\texorpdfstring{\autref{1}}{},
-Frank Löffler\texorpdfstring{\autref{1}}{},
-Michele Martone\texorpdfstring{\autref{1}}{},
-Jan Philipp Thiele\texorpdfstring{\autref{1}}{},
-Nick del Grosso\texorpdfstring{\autref{1}}{}
+Florian Goth\authorRef{1},
+Leyla Jael Castro\authorRef{2},
+Gerasimos Chourdakis\authorRef{3},
+Simon Christ\authorRef{4},
+Jeremy Cohen\authorRef{5},
+Jean-Noël Grad\authorRef{6},
+Magnus Hagdorn\authorRef{7},
+Toby Hodges\authorRef{8},
+Jan Linxweiler\authorRef{9},
+Frank Löffler\authorRef{10},
+Michele Martone\authorRef{11},
+Jan Philipp Thiele\authorRef{9}\textsuperscript{,}\authorRef{12},
+Nicholas A. Del Grosso\authorRef{13}
 } % Authors and references to addresses
-\institute{\autlabel{1} Fantasy University} % Institutes with labels
+\institute{% Institutes with labels
+\autlabel{1} Würzburg-Dresden Cluster of Excellence ct.qmat, University of Würzburg, 97074, Würzburg, Germany\par
+\autlabel{2} ZB MED Information Centre for Life Sciences, Cologne, Germany\par
+\autlabel{3} Institute for Parallel and Distributed Systems, University of Stuttgart, Stuttgart, Germany\par
+\autlabel{4} Leibniz University Hannover, Department of Cell Biology and Biophysics, Computational Biology, Germany\par
+\autlabel{5} Imperial College London, London, UK\par
+\autlabel{6} Institute for Computational Physics, University of Stuttgart, Germany\par
+\autlabel{7} Geschäftsbereich IT, Charité Universitätsmedizin Berlin, Germany\par
+\autlabel{8} The Carpentries, USA\par
+\autlabel{9} Technische Universität Braunschweig, Germany\par
+\autlabel{10} Michael Stifel Center Jena {\&} Friedrich Schiller University Jena, Germany\par
+\autlabel{11} Leibniz Supercomputing Centre, Garching, Germany\par
+\autlabel{12} Weierstrass Institute, Berlin, Germany;
+              Leibniz University Hannover, Institute of Applied Mathematics, Scientific Computing, Hannover, Germany\par
+\autlabel{13} Institute for Experimental Epileptology and Cognition Research, Uniklinikum Bonn, Germany
+}
 \abstract{It's 2025 and we are, admittedly, still working on establishing and growing Research Software Engineering (RSE)
 as a domain in its own right, with the hope of ensuring that it gets the recognition it deserves.
 Nonetheless, as the use of digital tools becomes ever more pervasive in a researcher's day-to-day tasks, there are already people suggesting that RSE will
