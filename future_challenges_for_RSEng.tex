@@ -180,7 +180,7 @@ Application of specialist numerical and statistical methods within software,
 Optimisation of codes for use on high-performance computing infrastructure,
 and Green computing - efficient implementations of algorithms/methods and use of hardware
 
-It is already difficult to structure the spectrum of RSE tasks and responsibilities today (FIXME: Willi Hasselbrings classification paper?)
+It is already difficult to structure the spectrum of RSE tasks and responsibilities today given the spectrum of research software \cite{hasselbring2024}
 and it is even more hopeless to structure the aspects that will become relavant for the RSE community in the future.
 Nevertheless, we decided to consider
 \begin{itemize}
@@ -258,15 +258,22 @@ librarians\footnote{\url{https://librarycarpentry.org}},
 and soon HPC practitioners\footnote{\url{https://www.hpc-carpentry.org}}.
 
 \begin{story}{The Definition of RSEs}{defrse}
-A story, about how Kim and Kay started out with a certain job description that now totally
-has changed meaning.
+Kim and Kay chuckled as they looked at their original job descriptions from 2020—"build tools for scientists, manage data, write reusable code."
+Now, their roles were unrecognizable: half AI whisperer, half research ethicist, and part-time diplomat between synthetic and human collaborators.
+They managed not just software, but the personalities of autonomous lab agents and negotiated data-sharing agreements with international AI consortiums.
+Despite the tech upheaval, their deep knowledge of scientific workflows and the messy, human way science actually gets done remained indispensable.
+When labs faltered under algorithmic bias or unclear model provenance, it was Kim and Kay who translated the chaos back into meaning.
+They understood that science didn’t move in straight lines, and that trust—between collaborators, institutions, and even machines—had to be built, not coded.
+Their titles had changed, but their role as bridges between logic and life remained the same.
+In a future of shifting code and constant reinvention, it was their understanding of people that never went out of date.
+
+% Kim and Kay started out as Research Software Engineers.
+% When they began, their work meant cleaning up code, making research reproducible, and helping academics run experiments without crashing HPC clusters. Now, they built systems, where AI generated hypotheses, designed experiments, and even debated its own conclusions. Their role had shifted from supporting research to shaping how knowledge was created, validated, and understood—an epistemological responsibility as much as a technical one. “We used to debug scripts,” Kay said, watching a model suggest a reality-bending theory of space-time. Kim nodded: “Now we debug truth.”
 \end{story}
 
 \subsection{Development of the RSE community}
 \begin{whatis}{What do we want to have achieved}{development-rse-community}
-We have more national RSE communities that are interacting with other partners in their nation.
-There are regular international conferences. The installation of RSE Master's programmes led to
-increased numbers of the members of the national societies.
+National RSE communities are increasingly collaborating with local partners, fostering stronger networks across countries. Regular international conferences further amplify these connections, promoting the global exchange of ideas. The introduction of RSE Master's programs, coupled with a shift in culture towards valuing Research Software, has significantly elevated its profile. This growing recognition has led to a surge in membership within national societies, reflecting the increasing importance of RSEng in the research landscape.
 \end{whatis}
 In recent years, we saw the formation of RSE institutes and advocacy groups, such as
 the UK Software Sustainability Institute\footnote{\url{https://www.software.ac.uk}},
@@ -280,15 +287,13 @@ the professionalisation%
 of the RSE role.
 In addition, a multitude of RSE communities self-organised at the national
 and regional level to support more viable RSE career paths in academia.
-We can expect RSEs to become more easily accessible,
-possibly through centrally-funded long-term positions at research institutions.
+We can expect RSEs to become more easily accessible, possibly through centrally-funded long-term positions at research institutions.
 The community of RSE's will get a significant boost in their acceptance if RSE Masters programmes
 become available at various universities.
-
+With increased numbers the visibility of the RSE community also to industry will become higher.
 \begin{story}{Development of RSE community}{RSEcommunity}
-A story about Kim participating in the first international RSE conference in a country on the southern hemisphere.
+Kay stood proudly at the podium of the first International Research Software Engineering Conference held in the Southern Hemisphere, a historic moment for both her career and the global RSE community. Having moved to South Africa, she spoke passionately about the unique challenges researchers in the Global South face—limited access to high-performance computing, unreliable funding, and the persistent digital divide. Her keynote highlighted how local innovation thrives despite constraints, often out of necessity rather than choice. The audience, a diverse mix of global experts, listened intently as she called for equitable collaborations, not just inclusion as an afterthought.
 \end{story}
-
 
 \subsection{Impact of AI and automation}
 \begin{whatis}{What do we want to have achieved}{impact-ai-automation}
@@ -305,14 +310,15 @@ With the general availability of AI the interaction with researchers will change
 Whereas previously RSEs have been points of knowledge that could translate human language formulated problems into technical descriptions and then provide solutions to it,
 It can be foreseen, that AI drives this low-key interaction to a highly specialized level of knowledge,
 since AI copilots are available 24/7.
-
+Since AI systems are so democratically available and will be used as black boxes,
+the interpretation of their outputs will be far more imortant.
 Currently we are expanding and documenting our work in the open and making our code available,
 therefore there will be more structured material to train GenAI on.
 However, as people get quicker answers from GenAI, the community resources (\eg Stack Overflow, Wikipedia)
 get poorer.
 
 \begin{story}{The interaction of RSEs with AI}{RSEs_with_AI}
-A story about Kay co-developing with AI.
+Kim develops advanced scientific software in tandem with an AI agent that codes, debugs, and simulates experiments alongside her. The AI proactively suggests optimizations, generates reproducible workflows, and adapts to Kim’s coding style and domain-specific needs. With this partnership, Kim accelerates her research output while maintaining full control over scientific direction and ethical oversight.
 \end{story}
 
 \subsection{Impact of Complexity and Usability in Research Software}
@@ -413,7 +419,7 @@ This will be supported by the first generations of RSE-Master graduates that fin
 Similar to RSEs, that are known by 2035 in university boards, we expect the concept of RSE units to be in the minds
 of academic staff at any level.
 We hope to see that universities use the presence of an RSE Department actively as a means to differentiate themselves from other universities.
-We hope that the central RSE units have local RSE representatives, or even small RSE groups that handle tasks within a department to oversee specific projects[FIXME: cite group paper].
+We hope that the central RSE units have local RSE representatives, or even small RSE groups that handle tasks within a department to oversee specific projects \cite{Kempf2025-draft}.
 We also hope, that specialized clusters form that pool the skills of certain specialised RSEs, with certain RSE units specializing in certain tasks like data management, HPC, or visualization.
 At universities which have them, we want to see that researchers naturally accept them as part of their used services.
 Additionally researchers will seamlessly interact with infrastructures for using research software.
@@ -461,15 +467,17 @@ if at least university regulations would be homogenized, no?
 \end{story}
 
 \emph{New challenges}
-If we follow the ideas laid out in (FIXME: cite RSE group paper), then in addition to university wide RSE units,
+If we follow the ideas laid out in \cite{Kempf2025-draft}, then in addition to university wide RSE units,
 there will be embedded RSEs in the departments. Shaping and developing these network bonds will be a task for the future.
-While networking embedded RSEs and RSE units is essential for building robust, sustainable research software infrastructure, but the question arises whether every group truly needs to host and manage its own infrastructure(FIXME: maybe cite this here: https://www.dfg.de/en/research-funding/funding-opportunities/programmes/infrastructure/lis/funding-opportunities/research-software-infrastructures).
-When each team or institution hosts its own systems, this often leads to siloed environments where resources, expertise, and data are isolated, limiting collaboration and creating inefficiencies. Such silos can result in duplicated efforts, higher costs, and challenges in maintaining data integrity and governance, as each group independently manages similar infrastructure and workflows. While local control offers flexibility, it also increases complexity and makes it harder to share innovations or best practices across the wider research community. To overcome these challenges, federated infrastructure models are needed, enabling shared access, interoperability, and coordinated development while still allowing for some local autonomy(FIXME: maybe cite this here: https://eurise-network.github.io/).
-Federated approaches break down silos, promote knowledge exchange, and ensure that infrastructure investments benefit the broader ecosystem rather than just isolated groups
+While networking embedded RSEs and RSE units is essential for building robust, sustainable research software infrastructure, but the question arises whether every group truly needs to host and manage its own infrastructure.
+When each team or institution hosts its own systems, this often leads to siloed environments where resources, expertise, and data are isolated, limiting collaboration and creating inefficiencies. Such silos can result in duplicated efforts, higher costs, and challenges in maintaining data integrity and governance, as each group independently manages similar infrastructure and workflows. While local control offers flexibility, it also increases complexity and makes it harder to share innovations or best practices across the wider research community. To overcome these challenges, federated infrastructure models are needed, enabling shared access, interoperability, and coordinated development while still allowing for some local autonomy \cite{Jelinek2021}.
+Federated approaches break down silos, promote knowledge exchange, and ensure that infrastructure investments benefit the broader ecosystem rather than just isolated groups.
 
 \subsection{Impact of Alternate Career Paths for Researchers on the Structure of Research Institutes}
 \begin{whatis}{What do we want to have achieved}{career-paths}
 We would like to see the emergence of more dedicated personel, i.e. other RTPs next to the RSE.
+Also we hope that researchers can build careers at the interface of academia, industry, and policy (\eg in think tanks, NGOs,
+or organisations that do knowledge transfer).
 \end{whatis}
 RSEs can either be embedded in research groups (belonging to the mid-level university staff),
 or be members of larger RSE units.\cite{Kempf2025-draft}
@@ -486,21 +494,29 @@ Embedded RSEs and central groups will need to network with each other,
 and potentially request and coordinate support from external RSEs.
 
 \begin{story}{New career paths}{New career paths}
-A story, about Ken delving into a new direction as RTP.
+Ken, though trained as a physicist, found his passion not in theory, but in keeping the quantum computers humming. He became the go-to expert for troubleshooting entangled qubits and stabilizing delicate cryogenic systems. His unique blend of physics knowledge and hands-on problem solving earned him a new title among his peers: the first Quantum RTP. In a world where theory meets reality, Ken quietly ensures the future of quantum computing stays on track.
 \end{story}
 \section{What is in this future for RSEs and where to go from here?}
 %FG-NOTE: I think we can use this part to wrap things a bit up, and describe how this future then looks like.
 %GC-NOTE: Shall we add another story box here? Ideas what we write here?
-
+It is hard to conclude a piece written about the future, but we have tried to list some of the trends that we foresee.
+Nevertheless there are some things that we declared out of scope here.
+Among that is the digital transformation in the wider society.
 Digital competencies in the general population continue to increase, making jumping to software development easier than before.
 But this digitalisation will also lead to changes in the way societies interact and therefore will translate into changes in how academia perceives itself.
+We have also not delved into the interaction with industry much.
+There are also some trends that believe to stay with us.
 The differentiation of job profiles in academia, that has started with profiles such as the RSE will continue.
 Societies will be facing new questions, that arise from technologies such as generally available AI systems.
-RSEs will very likely be doing different work,
+
+We hope that the standard of research software has risen across the board to enable an easy reuse in new research.
+We hope that a cultural change is taking place to recognize research software as the integral part of science that it is
+within broad parts of academia and is supported by political actors.
+To conclude, RSEs will very likely be doing different work
 than what they are doing today, but their core task of enhancing the scientific output of researchers -- other human
 beings -- will stay the same.
 They will still develop software artifacts together with scientists,
-since Better software leads to better research,
+since better software leads to better research,
 better research leads to more better software.
 
 \begin{acknowledge}
