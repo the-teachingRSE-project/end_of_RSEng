@@ -17,7 +17,7 @@
 
 
 \newcounter{whatiscounter}
-\newtcbtheorem[use counter=whatiscounter, number format=\Alph]{whatis}{What do we want to have achieved}{
+\newtcbtheorem[use counter=whatiscounter, number format=\Alph]{whatis}{Achieved Goals}{
   enhanced,
   segmentation engine=empty,
 %  beamer,
@@ -69,6 +69,7 @@ fuzzy shadow={2mm}{-1mm}{0mm}{0.1mm}%
 
 \newcommand{\Eg}{E.\,g.}
 \newcommand{\eg}{e.\,g.}
+\newcommand{\geprislink}[1]{\href{https://gepris.dfg.de/gepris/projekt/#1?language=en}{#1}}
 
 
 
@@ -114,11 +115,11 @@ as a domain in its own right, with the hope of ensuring that it gets the recogni
 Nonetheless, as the use of digital tools becomes ever more pervasive in a researcher's day-to-day tasks, there are already people suggesting that RSEng will
 cease to exist as a separate field, and the specialist skills that Research Software Engineers(RSEs) provide to support and undertake research will
 become a core part of the tooling and skill set of researchers in almost all other domains.
-Are we already approaching ``the end of Research Software Engineering''?! While we believe that it is certainly too early to
-already herald the demise of RSE as a separate field,
+Are we already approaching ``the end of Research Software Engineering''?!
+While we believe that it is certainly too early to already herald the demise of RSE as a separate field,
 we also recognise the need to acknowledge that the future is in constant flux and
 it is worthwhile discussing how RSEng will/could change in response to these upcoming challenges in an open discussion.
-To that end we held a workshop and structured the resulting discussion around social, technological, and organizational aspects.
+To figure out these challenges of the future we held a workshop and structured the resulting discussion around social, technological, and organisational aspects.
 } % Abstract of the article
 \keywords{Keywords go here.} % Keywords for the article
 
@@ -155,7 +156,10 @@ Nevertheless, we decided to consider:
 We conclude the paper with a summary and with our wishes and recommendations.
 
 \section{Aspects of this future}
-%\subsection{What do we want to have achieved by 2035}
+\begin{whatis}{}{whatisexplanation}
+In order to list what has been achieved in a certain aspect within the RSE community of the future of 2035 we use these ``Goal'' boxes.
+\end{whatis}
+
 Looking ahead over a 10-year timeframe, we hope that the RSE community will have
 contributed to making research software and its outputs
 more sustainable, robust and maintainable.
@@ -167,12 +171,12 @@ frame is putting the infrastructure and training opportunities in place, alongsi
 advocacy, to ensure that researchers receive core software skills as part of their scientific training.
 With development of software tools and scripted workflows becoming an increasingly important part of everyday
 research activities, this is vital and it will allow RSEs to focus on other more advanced and specialist
-areas. In this context, we do not foresee the demise of RSE as an independent role. However, we
+areas. In this context, we do not foresee the demise of the RSE as an independent role. However, we
 do see the work of RSEs developing and shifting as the research community changes.
 
 The specialist skills that RSEs provide take a significant amount of time to develop and maintain.
 We would, therefore, not expect domain researchers to also become experts in a range of
-advanced RSE topics. 
+advanced RSEng topics. 
 At the same time, we do recognise that the application of core software development best practices
 to enhance and address problems with research codebases, that can often make up the bulk of
 current RSE work, will change. As noted above, these are skills that we
@@ -249,7 +253,7 @@ the task of the lecturer will be fewer lectures,
 and to act more as a facilitator of resources,
 and to monitor activities and results over time.''\cite{Bygstad2022}
 
-RSE-relevant open educational resources and master's programmes are tracked
+RSEng-relevant open educational resources and master's programmes are tracked
 in the Learning and Teaching RSE database\footnote{\url{https://de-rse.org/learn-and-teach/}}
 and UK SSI resources hub\footnote{\url{https://www.software.ac.uk/resource-hub}}.
 The Carpentries now offer specialised software workshops
@@ -513,7 +517,11 @@ Societies will be facing new questions, that arise from technologies such as gen
 We hope that the standard of research software will have risen across the board, enabling easier reuse of prior software outputs in new research.
 We also hope that a cultural change is taking place to recognize research software as an integral part of science that it is
 widely recognized and rewarded across academia and is supported by political actors.
-To conclude, RSEs will very likely be doing different work
+\section{Conclusion}
+We have tried to elaborate on the state on the future ten years from now.
+It turned out to be a difficult endeavour, since even the full breadth of today's trends is not yet foreseeable.
+We have tried to shed some light on the social, technical and organisational aspects.
+In summary, RSEs will very likely be doing different work
 to what they are doing today, but their core task of enhancing the scientific output of researchers -- other human
 beings -- will stay the same.
 They will still develop software artifacts together with scientists,
@@ -523,7 +531,11 @@ and better research leads to better software.
 \begin{acknowledge}
 % MM-NOTE: I'd keep the following sentence out, out of several reasons.
 % AI Systems have been harmed in the creation of this work.
-We thank all the participants of our workshop at deRSE25 in Karlsruhe for their valuable input!  JC acknowledges support from the UKRI-EPSRC-funded STEP-UP project under grant EP/Y530608/1.
+We thank all the participants of our workshop at deRSE25 in Karlsruhe for their valuable input!
+FG acknowledges funding from the Deutsche Forschungsgemeinschaft(DFG, German Research Foundation) through the SFB 1170 “Tocotronics”, project Z03 - project number \geprislink{258499086}
+as well as financial support by the Deutsche Forschungsgemeinschaft (DFG, German Research
+Foundation) under Germany’s Excellence Strategy through the Würzburg-Dresden Cluster of Excellence on Complexity and Topology in Quantum Matter – ct.qmat (EXC 2147, project-id \geprislink{390858490}).
+JC acknowledges support from the UKRI-EPSRC-funded STEP-UP project under grant EP/Y530608/1.
 \end{acknowledge}
 
 % Bibliography with BibTeX
