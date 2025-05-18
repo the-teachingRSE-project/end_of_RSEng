@@ -17,7 +17,7 @@
 
 
 \newcounter{whatiscounter}
-\newtcbtheorem[use counter=whatiscounter, number format=\Alph]{whatis}{What do we want to have achieved}{
+\newtcbtheorem[use counter=whatiscounter, number format=\Alph]{whatis}{Achieved Goals}{
   enhanced,
   segmentation engine=empty,
 %  beamer,
@@ -69,6 +69,7 @@ fuzzy shadow={2mm}{-1mm}{0mm}{0.1mm}%
 
 \newcommand{\Eg}{E.\,g.}
 \newcommand{\eg}{e.\,g.}
+\newcommand{\geprislink}[1]{\href{https://gepris.dfg.de/gepris/projekt/#1?language=en}{#1}}
 
 
 
@@ -108,17 +109,23 @@ Nicholas A. Del Grosso\authorRef{13}
               Leibniz University Hannover, Institute of Applied Mathematics, Scientific Computing, Hannover, Germany\par
 \autlabel{13} Institute for Experimental Epileptology and Cognition Research, Uniklinikum Bonn, Germany
 }
-\abstract{It's 2025 and we are, admittedly, still working on establishing and growing Research Software Engineering (RSE)
+\abstract{
+It is 2025 and we are, admittedly, still working on establishing and growing Research Software Engineering (RSEng)
 as a domain in its own right, with the hope of ensuring that it gets the recognition it deserves.
-Nonetheless, as the use of digital tools becomes ever more pervasive in a researcher's day-to-day tasks, there are already people suggesting that RSE will
-cease to exist as a separate field, and the specialist skills that RSEs provide to support and undertake research will
-become a core part of the tooling and skill set of researchers in almost all other domains.
-Are we already approaching ``the end of Research Software Engineering''?! While we believe that it is certainly too early to
-already herald the demise of RSE as a separate field,
-we also recognise the need to acknowledge that the future is in constant flux and
-it is worthwhile discussing how RSE will/could change in response to these upcoming challenges in an open discussion.} % Abstract of the article
-\keywords{Future RSE, Evolving field, Vision
-} % Keywords for the article
+As the field develops, the role and value of Research Software Engineers (RSEs) becomes clearer.
+With the growing importance and scope of software engineering in research,
+researchers who code now begin to fill dedicated, specialized RSE roles crucial for the sustainable development
+of long-term research software projects that can rapidly innovate.
+Looking into the future, participants of the deRSE25 conference discussed how RSEng could evolve in response to the
+rapid changes in the broader social, technological, and organisational landscape.
+This paper presents the main discussion points of the conference participants,
+imagining a future in which RSEs have a well-defined and well-integrated role in research institutions,
+working as engineers of ever more complex research software projects,
+taming a growing range of methods and tools,
+and guiding researchers through technical and ethical considerations
+related to research software.
+} % Abstract of the article
+\keywords{Future RSE, Evolving field, Vision} % Keywords for the article
 
 \begin{document}
 \maketitle
@@ -131,24 +138,31 @@ Research Software Engineering is still a developing field,
 with increasing integration into various aspects of research.
 In this opinion paper, we try to imagine the state of our field
 and community in the mid-term future, focusing on future challenges.
+While future projections are common in industry \cite{gartner}, so far there is a projection lacking for the RSEng space.
 We present here the results of a workshop discussion at the
 deRSE25 conference in Karlsruhe\cite{Goth2025EndRSEng}, without
 claiming to represent the entire deRSE community.
 Nevertheless, by disseminating the discussed ideas,
-we aim to engage the community in creating a worthwhile future
+we aim to engage the community in creating a future worth living
 and to advance the conversation about how Research Software Engineering should, or could, develop.
-In the following sections, we consider a number of areas:
-the evolution of the RSE definition;
-the development of RSE education;
-the growth of the RSE communities;
-the impact of automation and generative artificial intelligence in RSE work;
-the emerging ethical considerations;
-the transformations expected in research organisations;
-and, finally, if there will be other areas in academia covered by new groups of RTPs (\emph{Research Technical Professional}s).
+It is already difficult to structure the spectrum of RSE tasks and responsibilities today given the spectrum of research software \cite{hasselbring2024}.
+It is even more challenging to structure the aspects that will become relevant for the RSE community in the future.
+Nevertheless, in order to structure the discussion, we decided to consider
+the evolution of the term RSE and its definition,
+the growth and development of the RSE community,
+the impact of automation and generative artificial intelligence in RSE work,
+the impact of complexity and usability in research software,
+ethical and social considerations,
+the expected transformations in academic institutions,
+and the potential impact of alternative career paths for RSEs and new groups of RTPs(\emph{Research Technical Professional}s).
+%
 We conclude the paper with a summary and with our wishes and recommendations.
 
 \section{Aspects of this future}
-%\subsection{What do we want to have achieved by 2035}
+\begin{whatis}{}{whatisexplanation}
+In order to list what has been achieved in a certain aspect within the RSE community of the future of 2035 we use these ``Goal'' boxes.
+\end{whatis}
+
 Looking ahead over a 10-year time frame, we hope that the RSE community will have
 contributed to making research software and its outputs
 more sustainable, robust and maintainable.
@@ -160,14 +174,15 @@ frame is putting the infrastructure and training opportunities in place, alongsi
 advocacy, to ensure that researchers receive core software skills as part of their scientific training.
 Developing software tools and scripted workflows is becoming an increasingly important part of everyday
 research activities.
-Therefore, it is vital to Improve digital skills of all researchers.
+Therefore, it is vital to improve digital skills of all researchers.
 This will also allow RSEs to focus on other more advanced and specialist
-areas. In this context, we do not foresee the demise of RSE as an independent role. However, we
+areas. In this context, we do not foresee the demise of the RSE as an independent role. However, we
 do see the work of RSEs developing and shifting as the research community changes.
 
 The specialist skills that RSEs provide take a significant amount of time to develop and maintain.
 Therefore, we do not expect domain researchers to also become experts in a range of
-advanced RSE topics. 
+advanced RSEng topics. 
+
 At the same time, we do recognise that the application of core software development best practices
 to enhance and address problems with research codebases, that can often make up the bulk of
 current RSE work, will change. As noted above, these are skills that we
@@ -189,20 +204,6 @@ application of specialist numerical and statistical methods within software;
 optimisation of codes for use on high-performance computing infrastructure;
 and green computing - efficient implementations of algorithms/methods and use of hardware
 
-It is already difficult to structure the spectrum of RSE tasks and responsibilities today given the spectrum of research software \cite{hasselbring2024}.
-It is even more challenging to structure the aspects that will become relevant for the RSE community in the future.
-Nevertheless, we decided to consider:
-\begin{itemize}
-\item The evolution of the term RSE
-\item Development of the RSE community
-\item What the impact of AI will be to the work of RSEs
-\item The impact of complexity and usability in research software
-\item Ethics and social considerations
-\item How education is reshaped by the digital transformation
-\item Changes to academic institutions
-\item Impact of alternative career paths for RSEs and other RTPs
-\end{itemize}
-
 \begin{story}{Introduction}{intro}
 In order to give a more concrete setting, imagine a world ten years from now.
 Not too overwhelmingly far ahead in the future, but distant enough for some changes to have occurred.
@@ -216,8 +217,7 @@ Which tasks are still relevant, where they can be happy that a younger generatio
 What issues have newly emerged, where they are now just happy to say: “Oh well… my successors will take care of that”.
 In order to bring this future to life, these two personas will accompany us through the rest of this paper and we will shed light on aspects
 of their future in respective small story boxes.
- \end{story}
-
+\end{story}
 
 \subsection{Definition and Evolution of RSEs}
 \begin{whatis}{}{definition-evolution-rse}
@@ -260,7 +260,8 @@ the task of the lecturer will be fewer lectures,
 and to act more as a facilitator of resources,
 and to monitor activities and results over time.''\cite{Bygstad2022}
 
-RSE-relevant open educational resources and Master's programmes are tracked
+
+RSEng-relevant open educational resources and Master's programmes are tracked
 in the Learning and Teaching RSE database\footnote{\url{https://de-rse.org/learn-and-teach/}}
 and UK SSI resources hub\footnote{\url{https://www.software.ac.uk/resource-hub}}.
 The Carpentries now offer specialised software workshops
@@ -505,10 +506,10 @@ and potentially request and coordinate support from external RSEs.
 \begin{story}{New career paths}{New career paths}
 Ken, though trained as a physicist, found his passion not in theory, but in keeping the quantum computers humming. He became the go-to expert for troubleshooting entangled qubits and stabilizing delicate cryogenic systems. His unique blend of physics knowledge and hands-on problem solving earned him a new title among his peers: the first Quantum RTP. In a world where theory meets reality, Ken quietly ensures the future of quantum computing stays on track.
 \end{story}
-\section{What is in this future for RSEs and where to go from here?}
+\section{What is in this future for RSEs?}
 %FG-NOTE: I think we can use this part to wrap things a bit up, and describe how this future then looks like.
 %GC-NOTE: Shall we add another story box here? Ideas what we write here?
-It is hard to conclude a piece written about the future, but we have tried to list some of the trends that we foresee.
+In the previous sections, we have tried to list some of the trends that we foresee.
 The material presented here is based on the outputs of a workshop, but extended with the authors' ideas.
 Nevertheless, there are some things that we declared out of scope here.
 Among that is the ongoing digital transformation in wider society.
@@ -522,7 +523,12 @@ Societies will be facing new questions, that arise from technologies such as gen
 We hope that the standard of research software will have risen across the board, enabling easier reuse of prior software outputs in new research.
 We also hope that a cultural change is taking place to recognize research software as an integral part of science that it is
 widely recognised and rewarded across academia and is supported by political actors.
-To conclude, RSEs will very likely be doing different work
+\section{Conclusion}
+We have tried to elaborate on the state on the future ten years from now.
+It turned out to be a difficult endeavour, since even the full breadth of today's trends is not yet foreseeable.
+We have tried to shed some light on the social, technical and organisational aspects.
+In summary, RSEs will very likely be doing different work
+
 to what they are doing today, but their core task of enhancing the scientific output of researchers -- other human
 beings -- will stay the same.
 They will still develop software artefacts together with scientists,
@@ -532,7 +538,11 @@ and better research leads to better software.
 \begin{acknowledge}
 % MM-NOTE: I'd keep the following sentence out, out of several reasons.
 % AI Systems have been harmed in the creation of this work.
-We thank all the participants of our workshop at deRSE25 in Karlsruhe for their valuable input!  JC acknowledges support from the UKRI-EPSRC-funded STEP-UP project under grant EP/Y530608/1.
+We thank all the participants of our workshop at deRSE25 in Karlsruhe for their valuable input!
+FG acknowledges funding from the Deutsche Forschungsgemeinschaft(DFG, German Research Foundation) through the SFB 1170 “Tocotronics”, project Z03 - project number \geprislink{258499086}
+as well as financial support by the Deutsche Forschungsgemeinschaft (DFG, German Research
+Foundation) under Germany’s Excellence Strategy through the Würzburg-Dresden Cluster of Excellence on Complexity and Topology in Quantum Matter – ct.qmat (EXC 2147, project-id \geprislink{390858490}).
+JC acknowledges support from the UKRI-EPSRC-funded STEP-UP project under grant EP/Y530608/1.
 \end{acknowledge}
 
 % Bibliography with BibTeX
