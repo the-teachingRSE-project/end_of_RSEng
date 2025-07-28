@@ -93,6 +93,8 @@ Manuscript: "Future challenges for Research Software Engineering"
 
 > The reference style in the document looks odd as there is no line spacing between the word and the bracket: ...competencies[WORD]...
 
+We added non-breaking spaces in front of every citation.
+
 \newpage
 
 ## Reviewer B
