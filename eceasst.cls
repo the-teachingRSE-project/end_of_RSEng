@@ -46,6 +46,7 @@
 % ======================
 % Package for Hyperlinks
 % ======================
+\RequirePackage[hyphens]{url}
 % Hyperlinks are coloured in easstblue
 \RequirePackage[colorlinks=true,linkcolor=easstblue,citecolor=easstblue,filecolor=easstblue,menucolor=easstblue,urlcolor=easstblue,pdfpagemode={UseNone},pdfsubject={Software Science and Technology},pdfstartview={FitH}]{hyperref}
 % URLs should be in normal font
