@@ -71,6 +71,11 @@ fuzzy shadow={2mm}{-1mm}{0mm}{0.1mm}%
 
 \newcommand{\Eg}{E.\,g.}
 \newcommand{\eg}{e.\,g.}
+
+% PDF accessibility and PDF metadata
+\usepackage{accsupp}
+\newcommand{\authorRef}[1]{\texorpdfstring{\autref{#1}}{}}
+\newcommand{\authorOrcid}[1]{\texorpdfstring{\thinspace\orcidlink{#1}\thinspace}{}}
 \newcommand{\geprislink}[1]{\href{https://gepris.dfg.de/gepris/projekt/#1?language=en}{#1}}
 
 
@@ -79,21 +84,23 @@ fuzzy shadow={2mm}{-1mm}{0mm}{0.1mm}%
 % ===================
 \title{Future challenges for Research Software Engineering} % Title of the article
 %\short{} % Short title of the article (optional)
-\newcommand{\authorRef}[1]{\texorpdfstring{\autref{#1}}{}}
 \author{
-Florian Goth\authorRef{1},
-Leyla Jael Castro\authorRef{2},
-Gerasimos Chourdakis\authorRef{3},
-Simon Christ\authorRef{4},
-Jeremy Cohen\authorRef{5},
-Nicholas A. Del Grosso\authorRef{6},
-Jean-Noël Grad\authorRef{7},
-Magnus Hagdorn\authorRef{8},
-Toby Hodges\authorRef{9},
-Jan Linxweiler\authorRef{10},
-Frank Löffler\authorRef{11},
-Michele Martone\authorRef{12},\\
-Jan Philipp Thiele\authorRef{10}\textsuperscript{,}\authorRef{13}
+Florian Goth\authorOrcid{0000-0003-2707-4790}\authorRef{1},
+Leyla Jael Castro\authorOrcid{0000-0003-3986-0510}\authorRef{2},
+Gerasimos Chourdakis\authorOrcid{0000-0002-3977-1385}\authorRef{3},
+\texorpdfstring{\\}{} % line break
+Simon Christ\authorOrcid{0000-0002-5866-1472}\authorRef{4},
+Jeremy Cohen\authorOrcid{0000-0003-4312-2537}\authorRef{5},
+Nicholas A. Del Grosso\thinspace\authorRef{6},
+\texorpdfstring{\\}{} % line break
+Jean-Noël Grad\authorOrcid{0000-0002-5821-4912}\authorRef{7},
+Magnus Hagdorn\authorOrcid{0000-0002-5076-4864}\authorRef{8},
+Toby Hodges\authorOrcid{0000-0003-1766-456X}\authorRef{9},
+Jan Linxweiler\authorOrcid{0000-0002-2755-5087}\authorRef{10},
+\texorpdfstring{\\}{} % line break
+Frank Löffler\authorOrcid{0000-0001-6643-6323}\authorRef{11},
+Michele Martone\authorOrcid{0000-0003-3239-8554}\authorRef{12},
+Jan Philipp Thiele\authorOrcid{0000-0002-8901-6660}\authorRef{10}\textsuperscript{,}\authorRef{13}
 } % Authors and references to addresses
 \institute{% Institutes with labels
 \autlabel{1} Institut für theoretische Physik 1, University of Würzburg, 97074, Würzburg, Germany\\
@@ -107,7 +114,7 @@ Jan Philipp Thiele\authorRef{10}\textsuperscript{,}\authorRef{13}
 \autlabel{9} The Carpentries, USA\\
 \autlabel{10} Technische Universität Braunschweig, Germany\\
 \autlabel{11} Michael Stifel Center Jena {\&} Friedrich Schiller University Jena, Germany\\
-\autlabel{12} orcid: 0000-0003-3239-8554 \orcidlink{0000-0003-3239-8554}\\
+\autlabel{12} Independent researcher, Germany\\
 \autlabel{13} Weierstrass Institute, Berlin, Germany;
               Leibniz University Hannover, Institute of Applied Mathematics, Scientific Computing, Hannover, Germany\\
 }
