@@ -204,7 +204,6 @@ discussed by the conference participants.
 
 > If possible, the inclusion of a small table, figure, and/or a few lines of text summarising the distribution of key features of the workshop participants might be an interesting addition (e.g. level of academic/research education, an indication of their software engineering proficiency/professionalism, their age and/or career stage)... I would be curious as to the level of 'optimism' and expectations for change for the field that participants with different backgrounds might tend to have, although I feel that your paper has merit and interest as it stands, with no such changes needed.
 
-Thank you for your suggestion. We made the workshop notes available at zenodo and included the link into the paper. We definitely agree, that more statisitics about the participants would be valuable, but we didn't measure them....
-We added a respective statement to the introduction.
+Thank you for your suggestion. We made the workshop notes available on Zenodo and included the link into the paper. We definitely agree that more statisitics about the participants would be valuable, but we did not collect any such data. We also added a respective statement to the introduction.
 
 > I am selecting 'Revisions Required' in case you would like to make such an addition (and/or address the other very minor points I made about some cases of slightly non-standard English, and the swapping of genders of your personas), but do not think revisions are strictly necessary; the paper could be published as-is.
