@@ -52,6 +52,8 @@ We have put this sentence to the front, and kept it at the end as a reminder.
 > Minor remarks:
 > Author 12 lacks affiliation information
 
+Author 12 wished to be listed as an independent researcher, which is now reflected in the affiliation. ORCID links have also been added to the other authors.
+
 > Keywords could be richer
 
 > "In order to structure the discussion, we decided to consider...". Was the discussion structured as presented or is the paper structured as presented; the sentence implies the former. Is there a rationale why the authors include the following topics? Have there been other topics in discussion that have not been namend in the paper?
