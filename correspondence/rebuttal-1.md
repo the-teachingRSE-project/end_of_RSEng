@@ -41,7 +41,7 @@ As suggested also by other referees, we made the workshop notes available at zen
 
 > 3. The authors claim to "present here the results of a workshop discussion at the deRSE25 conference in Karlsruhe". However, they also include their hopes, discussions and own expectations for the future RSE ecosystem (in Germany). This should be mentioned in the introduction and it should be made clear which statements have been put forward during the discussion and which have been added by the authors after the discussion. The authors mention this construct in section 3 ("In the previous sections, we have tried to list some of the trends that we foresee. The material presented here is based on the outputs of a workshop, but extended with the authors’ ideas."), which makes understanding the paper difficult; I would expect such a statement at the beginning. While I do not propose to re-structure the paper (e.g. report first, discussion second), I suggest to review the paper as to which statements have been reported in the discussion and which statement have been brought up by the authors.
 
-We have put this sentence to the front, an kept it at the end as a reminder.
+We have put this sentence to the front, and kept it at the end as a reminder.
 
 > Regarding Chapter 2.3.
 > I would propose the authors provide a counter argument/discussion to why AI will not totally make RSEs obsolete. Additionally, the authors paint a quite bright picture of the AI future, however not discussing risks to the scientific processes, e.g. difficulty with recplication, societal trust in science, non-democtratization of science because of access to storage, compute and useful data sets, etc.
