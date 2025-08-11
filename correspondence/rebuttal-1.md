@@ -42,6 +42,10 @@ Manuscript: "Future challenges for Research Software Engineering"
 > Regarding Chapter 2.3.
 > I would propose the authors provide a counter argument/discussion to why AI will not totally make RSEs obsolete. Additionally, the authors paint a quite bright picture of the AI future, however not discussing risks to the scientific processes, e.g. difficulty with recplication, societal trust in science, non-democtratization of science because of access to storage, compute and useful data sets, etc.
 
+We have extended the AI section to mention further risks from AI.
+While the original manuscript already mentioned issues with AI and a shift of focus in the RSE role,
+we have made these stronger in an additional paragraph.
+
 > Regarding Chaper 2.6
 > "thinking on the time scale of generations". This seems crucial, especially when looking at academia in Germany. Many renowened professors will retire in the next 5-10 years, making way for a younger generation that even may have coded during their career. The authors do not discuss this obvious transformation. Do they no expect at least some RSE professors?
 
