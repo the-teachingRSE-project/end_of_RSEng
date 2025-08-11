@@ -33,11 +33,15 @@ Manuscript: "Future challenges for Research Software Engineering"
 
 ### Suggestions
 
+As suggested also by other referees, we made the workshop notes available at zenodo. A link has been made part of the paper.
+
 > 1. The authors do not mention Germany as the focus of their discussion, probably because they want to address a broader aspect of RSEng that could apply to other countries or even globally. However, the history, focus and references clearly indicate a German perspective. I suggest either making it clear that the vision and discussion are limited to Germany, or discussing why the focus of the paper is rather nationalistic yet applies to a broader range of locations, and explaining where and why the stated aspects differ.
 
 > 2. The authors switch between the past and present tenses, which makes reading the article difficult. They sometimes address present tools, infrastructure and activities, and sometimes write as if future tools, infrastructure and activities have been made available or developed. For example, the "Achieved Goals" refer to goals achieved by 2035, but the tenses change throughout the boxes. "RSEng-relevant open educational resources..." Some resources are available and some are not; however, the style of writing makes it difficult to tell the difference. I would propose that the authors use tenses to clearly distinguish between past, present and future activities, tools and resources, and not write as if future activities have already been successful. Additionally, the authors write about their hopes, which seem off-topic for a report or opinion paper. I would suggest not writing about hopes at all. Future trend statements should be based on knowledge.
 
 > 3. The authors claim to "present here the results of a workshop discussion at the deRSE25 conference in Karlsruhe". However, they also include their hopes, discussions and own expectations for the future RSE ecosystem (in Germany). This should be mentioned in the introduction and it should be made clear which statements have been put forward during the discussion and which have been added by the authors after the discussion. The authors mention this construct in section 3 ("In the previous sections, we have tried to list some of the trends that we foresee. The material presented here is based on the outputs of a workshop, but extended with the authors’ ideas."), which makes understanding the paper difficult; I would expect such a statement at the beginning. While I do not propose to re-structure the paper (e.g. report first, discussion second), I suggest to review the paper as to which statements have been reported in the discussion and which statement have been brought up by the authors.
+
+We have put this sentence to the front, and kept it at the end as a reminder.
 
 > Regarding Chapter 2.3.
 > I would propose the authors provide a counter argument/discussion to why AI will not totally make RSEs obsolete. Additionally, the authors paint a quite bright picture of the AI future, however not discussing risks to the scientific processes, e.g. difficulty with recplication, societal trust in science, non-democtratization of science because of access to storage, compute and useful data sets, etc.
@@ -201,5 +205,7 @@ discussed by the conference participants.
 ### Suggestions
 
 > If possible, the inclusion of a small table, figure, and/or a few lines of text summarising the distribution of key features of the workshop participants might be an interesting addition (e.g. level of academic/research education, an indication of their software engineering proficiency/professionalism, their age and/or career stage)... I would be curious as to the level of 'optimism' and expectations for change for the field that participants with different backgrounds might tend to have, although I feel that your paper has merit and interest as it stands, with no such changes needed.
+
+Thank you for your suggestion. We made the workshop notes available on Zenodo and included the link into the paper. We definitely agree that more statisitics about the participants would be valuable, but we did not collect any such data. We also added a respective statement to the introduction.
 
 > I am selecting 'Revisions Required' in case you would like to make such an addition (and/or address the other very minor points I made about some cases of slightly non-standard English, and the swapping of genders of your personas), but do not think revisions are strictly necessary; the paper could be published as-is.
