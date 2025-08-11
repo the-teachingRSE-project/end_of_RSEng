@@ -290,7 +290,7 @@ and UK SSI resources hub\footnote{\url{https://www.software.ac.uk/resource-hub}}
 The Carpentries now offer specialised software workshops
 for data scientists\footnote{\url{https://datacarpentry.org}},
 librarians\footnote{\url{https://librarycarpentry.org}},
-and soon HPC practitioners\footnote{\url{https://www.hpc-carpentry.org}}.
+and soon High-Performance Computing (HPC) practitioners\footnote{\url{https://www.hpc-carpentry.org}}.
 
 \begin{story}{The Definition of RSEs}{defrse}
 Kim and Kay chuckled when they looked at their original job descriptions from 2020: ``build tools for scientists, manage data, write reusable code.''
@@ -354,8 +354,8 @@ RSEs understand how AI models work, and can help researchers reap their benefits
 clearly knowing their limits.
 \end{whatis}
 Generative AI tools, such as GitHub Copilot~\cite{Friedmann2021},
-are being added to software development tools.
-These AI powered code assistants promise to increase productivity
+are being added to software development tools~\cite{Alenezi2025}.
+These AI-powered code assistants promise to increase productivity
 by automatically generating code, and writing test cases and documentation.
 Software developers use them to reduce the number of keystrokes,
 complete tasks and to recall syntax without having to consult the documentation~\cite{Liang2024}.
@@ -375,15 +375,25 @@ We address this in \autoref{sec:complexity}.
 Another risk is that the widespread use of AI tools will make community resources
 such as \eg\ Stack Overflow and Wikipedia (which are used to train AI models) poorer, due to fewer incentives to maintain them.
 Further risks that were later discussed include an intensified replication crisis, a de-democratization of research, and loss of trust in science.
-Due to the non-deterministic nature of generative AI, we expect data generation and analysis to become less reproducible. Professional RSEs could safeguard reproducibility by designing, evaluating, and monitoring appropriate workflows.
+Due to the non-deterministic nature of generative AI, we expect AI-assisted simulations and and data analysis to become less reproducible.
+This is not an entirely new issue, and similar concerns exist in the HPC community,
+where reproducing simulation data and data analysis workflows presents tough challenges~\cite{Antunes2024}.
+Professional RSEs could safeguard reproducibility by designing, evaluating, and monitoring appropriate workflows.
+When applicable, standardized and version-controlled models should be preferred
+over self-developed models, and self-developed models should be treated like any
+other research output (i.e. publish the trained model, training data and training workflow).
 Future research will require significant computing and storage resources, as well as useful data and models,
 therefore it will be more driven by institutions able to provide these.
 Finally, an increasing risk is the loss of trust in science,
-in particular due to the automation of the peer-reviewing process~\cite{Naddaf2025}.
-As more and more research will be written by researchers assisted by AI,
-RSEs will be freed from repeatedly crafting similar individual elements, but will be spending more of their time in designing and reviewing software written by other humans and AI tools.
-To address these risks, the RSE of the future could be not only closely overlooking every part of the research software development cycle (ensuring dissemination, archiving, and reproducibility),
-but also contributing to endangered community resources and infrastructure that will keep research accessible to the wider scientific community.
+in particular due to the automation of the peer-reviewing process~\cite{Naddaf2025}
+and the malicious use of hidden prompts~\cite{Gibney2025}.
+As researchers increase their reliance on AI assistants,
+RSEs will be freed from repeatedly crafting similar individual elements,
+but will be spending more of their time in designing and reviewing software written by other humans and AI tools.
+To address these risks, the RSE of the future could be not only closely overlooking every part
+of the research software development cycle (ensuring dissemination, archiving, and reproducibility),
+but also contributing to endangered community resources and infrastructure that
+will keep research accessible to the wider scientific community.
 
 The lessons learned from Human Factors research of the previous decades~\cite{Simkute2025}
 applied to AI tools helped resolve the initial issues outlined above.
@@ -396,8 +406,12 @@ focusing more on high-level design, integration, and creative problem-solving wh
 
 As AI continues to evolve, it will further blur the lines between human and machine roles, making research and software development faster.
 With the general availability of AI, the interaction of RSEs with researchers will change at a fundamental level.
-Whereas previously RSEs have been points of knowledge that could translate human language formulated problems into technical descriptions and then provide solutions to them,
+Whereas previously RSEs have been points of knowledge that could translate
+human language formulated problems into technical descriptions and then provide solutions to them,
 it can be foreseen that AI will drive this low-key interaction to a highly specialised level of knowledge.
+RSEs will still act as points of knowledge by assisting users in integrating
+AI tools in their development workflows, understanding the reasoning of AI models,
+and more generally, by improving AI literacy~\cite{Alenezi2025}.
 
 \begin{story}{The interaction of RSEs with AI}{RSEs_with_AI}
 Kim develops advanced scientific software in tandem with an AI agent that codes,
