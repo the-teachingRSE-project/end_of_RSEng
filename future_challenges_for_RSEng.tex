@@ -358,7 +358,7 @@ while clearly knowing their limits.
 Generative AI tools, such as GitHub Copilot~\cite{Friedmann2021},
 are being added to software development tools~\cite{Alenezi2025}.
 These AI-powered code assistants promise to increase productivity
-by automatically generating code, and writing test cases and documentation.
+by automatically generating code, and writing test cases and documentation~\cite{Banh2025}.
 Software developers use them to reduce the number of keystrokes,
 focus on higher-level design rather than on idiosyncrasies,
 and recall syntax without having to consult the documentation~\cite{Liang2024}.
@@ -368,7 +368,7 @@ and software creation, and fostering greater collaboration across disciplines.
 However, when these tools are used in practice, many users report increased cognitive
 load and frustration stemming from the difficulty to prompt the system effectively
 and from debugging the generated code~\cite{Simkute2025}.
-Many factors can influence AI tools adoption~\cite{Russo2024}.
+Many factors can influence the adoption of AI tools~\cite{Russo2024}.
 The potential of AI to be a democratising technology can only be realised
 when the algorithmic divide along with the digital divide is addressed~\cite{Yu2020}.
 We also note members of the SE community have called for improving LLM literacy
@@ -380,10 +380,15 @@ The workshop participants suggested that the emergence of AI and automation migh
 We address this in \autoref{sec:complexity}.
 Another risk is that the widespread use of AI tools could make community resources
 such as \eg\ Stack Overflow and Wikipedia (which are used to train AI models) poorer
-due to fewer incentives to maintain them, and could compromise LLMs via `model collapse'
-when AI-generated content is added to these websites and becomes part of the training data~\cite{Shumailov2024}.
-Further risks that were later discussed include an intensified replication crisis, a de-democratization of research, and loss of trust in science.
-Due to the non-deterministic nature of generative AI, we expect AI-assisted simulations and and data analysis to become less reproducible.
+due to fewer incentives to maintain them, although a recent survey suggests
+these communities experience less activity from new users and an increased
+average complexity of the questions posted~\cite{Burtch2024}.
+The use of AI assistants in these communities could compromise LLMs via `model collapse'
+when AI-generated content becomes part of the training data~\cite{Shumailov2024}.
+Further risks that were later discussed include an intensified replication crisis,
+a de-democratization of research, and loss of trust in science.
+Due to the non-deterministic nature of generative AI, we expect AI-assisted simulations
+and LLM-assisted data analysis to become less reproducible.
 This is not an entirely new issue, and similar concerns exist in the HPC community,
 where reproducing simulation data and data analysis workflows presents tough challenges~\cite{Antunes2024}.
 Professional RSEs could safeguard reproducibility by designing, evaluating, and monitoring appropriate workflows.
@@ -391,16 +396,16 @@ When applicable, standardized and version-controlled models should be preferred
 over self-developed models, and self-developed models should be treated like any
 other research output (i.e. publish the trained model, training data and training workflow).
 Future research will require significant computing and storage resources, as well as useful data and models,
-therefore it will be more driven by institutions able to provide these.
+therefore it will be more likely to be driven by institutions that are able to provide these.
 Finally, an increasing risk is the loss of trust in science,
 in particular due to the automation of the peer-reviewing process~\cite{Naddaf2025}
 and the malicious use of hidden prompts~\cite{Gibney2025}.
 As researchers increase their reliance on AI assistants,
 RSEs will be freed from repeatedly crafting similar individual elements,
-but will be spending more of their time in designing and reviewing software written by other humans and AI tools.
-To address these risks, the RSE of the future could be not only closely overlooking every part
+but will be spending more of their time designing and reviewing software written by other humans and AI tools.
+To address these risks, the RSE of the future should not only steer every part
 of the research software development cycle (ensuring dissemination, archiving, and reproducibility),
-but also contributing to endangered community resources and infrastructure that
+but also contribute to endangered community resources and infrastructure that
 will keep research accessible to the wider scientific community.
 
 The lessons learned from Human Factors research of the previous decades~\cite{Simkute2025}
@@ -420,6 +425,8 @@ it can be foreseen that AI will drive this low-key interaction to a highly speci
 RSEs will still act as points of knowledge by assisting users in integrating
 AI tools in their development workflows, understanding the reasoning of AI models,
 and more generally, by improving AI literacy~\cite{Alenezi2025}.
+AI-RSE specialists can contribute to the emerging fields of explainable
+AI for SE (XAI4SE)~\cite{Mohammadkhani2023v1} and AI for RSE (AI4RSE)~\cite{Farshidi2025v1}.
 
 \begin{story}{The interaction of RSEs with AI}{RSEs_with_AI}
 Kim develops advanced scientific software in tandem with an AI agent that codes,
