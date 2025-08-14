@@ -214,9 +214,10 @@ At the same time, we do recognise that the application of core software developm
 to enhance and address problems with research codebases, that can often make up the bulk of
 current RSE work, will change. As noted above, these are skills that we
 would expect any researcher who writes code to have in 10 years time. 
-The rapid development of AI means that researchers are likely to have access to tooling that can assist
-them in writing robust, sustainable code, lowering the barrier to developing code, or at least changing the
-required skill set to some extent.
+The rapid development of artificial intelligence (AI) and large language models
+(LLMs) means that researchers are likely to have access to tooling that can assist
+them in writing robust, sustainable code, lowering the barrier to developing code,
+or at least changing the required skill set to some extent.
 They can also be expected to have an understanding of frameworks to support testing, packaging and
 deployment of their code as well as integration with central domain specific infrastructures.
 Again, all these skills will, we anticipate, be gained as part of training infrastructure that will
@@ -294,7 +295,7 @@ and UK SSI resources hub\footnote{\url{https://www.software.ac.uk/resource-hub}}
 The Carpentries now offer specialised software workshops
 for data scientists\footnote{\url{https://datacarpentry.org}},
 librarians\footnote{\url{https://librarycarpentry.org}},
-and soon HPC practitioners\footnote{\url{https://www.hpc-carpentry.org}}.
+and soon High-Performance Computing (HPC) practitioners\footnote{\url{https://www.hpc-carpentry.org}}.
 
 \begin{story}{The Definition of RSEs}{defrse}
 Kim and Kay chuckled when they looked at their original job descriptions from 2020: ``build tools for scientists, manage data, write reusable code.''
@@ -354,40 +355,74 @@ for equitable collaborations, not just inclusion as an afterthought.
 \subsection{Impact of AI and automation}
 \label{sec:ai}
 \begin{whatis}{}{impact-ai-automation}
-RSEs understand how AI models work, and can help researchers reap their benefits, while
-clearly knowing their limits.
+RSEs understand how AI models work and AI-RSE specialists know how to tune and extend them.
+With these skills they can help researchers reap their benefits,
+while clearly knowing their limits.
 \end{whatis}
 Generative AI tools, such as GitHub Copilot~\cite{Friedmann2021},
-are being added to software development tools.
-These AI powered code assistants promise to increase productivity
-by automatically generating code, and writing test cases and documentation.
+are being added to software development tools~\cite{Alenezi2025}.
+These AI-powered code assistants promise to increase productivity
+by automatically generating code, and writing test cases and documentation~\cite{Banh2025}.
 Software developers use them to reduce the number of keystrokes,
-complete tasks and to recall syntax without having to consult the documentation~\cite{Liang2024}.
+focus on higher-level design rather than on idiosyncrasies,
+and recall syntax without having to consult the documentation~\cite{Liang2024}.
 Code assistants have the potential to help novice or even non-expert programmers
 write code~\cite{Feldman2024} thus enabling non-experts to participate in research
 and software creation, and fostering greater collaboration across disciplines.
 However, when these tools are used in practice, many users report increased cognitive
 load and frustration stemming from the difficulty to prompt the system effectively
 and from debugging the generated code~\cite{Simkute2025}.
+Many factors can influence the adoption of AI tools~\cite{Russo2024}.
 The potential of AI to be a democratising technology can only be realised
 when the algorithmic divide along with the digital divide is addressed~\cite{Yu2020}.
+We also note members of the SE community have called for improving LLM literacy
+by adapting SE curricula~\cite{Kirova2024}.
 
-Another risk of the widespread use of AI tools is that community resources
-such as \eg\ Stack Overflow and Wikipedia become poorer because there are fewer incentives to maintain them.
+Besides the direct impact in research software and further research output,
+we see a number of risks.
+The workshop participants suggested that the emergence of AI and automation might reduce critical thinking and imagination.
+We address this in \autoref{sec:complexity}.
+Another risk is that the widespread use of AI tools could make community resources
+such as \eg\ Stack Overflow and Wikipedia (which are used to train AI models) poorer
+due to fewer incentives to maintain them, although a recent survey suggests
+these communities experience less activity from new users and an increased
+average complexity of the questions posted~\cite{Burtch2024}.
+The use of AI assistants in these communities could also compromise LLMs via `model collapse'
+when AI-generated content becomes part of the training data~\cite{Shumailov2024}.
 
-The lessons learned from Human Factors research of the previous decades~\cite{Simkute2025}
-applied to AI tools helped resolve the initial issues outlined above.
-We envision that AI will be transforming research processes by enabling rapid analysis of massive datasets,
-uncovering patterns and insights that would have been impossible or prohibitively time-consuming for humans alone to find.
-In research and development, AI will accelerate scientific breakthroughs in fields like healthcare,
-climate science, and materials engineering by automating complex modelling and predictive tasks.
-Developers will be shifting from manual coding to orchestrating AI-driven workflows,
-focusing more on high-level design, integration, and creative problem-solving while AI handles repetitive or routine tasks.
+Further risks that were later discussed include an intensified replication crisis,
+a de-democratization of research, and loss of trust in science.
+Due to the non-deterministic nature of generative AI, we expect AI-assisted simulations
+and LLM-assisted data analysis to become less reproducible.
+This is not an entirely new issue, and similar concerns exist in the HPC community,
+where reproducing simulation data and data analysis workflows presents tough challenges~\cite{Antunes2024}.
+Professional RSEs could safeguard reproducibility by designing, evaluating, and monitoring appropriate workflows.
+When applicable, standardized and version-controlled models should be preferred
+over self-developed models, and self-developed models should be treated like any
+other research output (i.e. publish the trained model, training data and training workflow).
+Future research will require significant computing and storage resources, as well as useful data and models,
+therefore it will be more likely to be driven by institutions that are able to provide these.
+Finally, an increasing risk is the loss of trust in science,
+in particular due to the automation of the peer-reviewing process~\cite{Naddaf2025}
+and the malicious use of hidden prompts~\cite{Gibney2025}.
+As researchers increase their reliance on AI assistants,
+RSEs will be freed from repeatedly crafting similar individual elements,
+but will be spending more of their time designing and reviewing software written by other humans and AI tools.
+To address these risks, the RSE of the future should not only steer every part
+of the research software development cycle (ensuring dissemination, archiving, and reproducibility),
+but also contribute to endangered community resources and infrastructure that
+will keep research accessible to the wider scientific community.
 
 As AI continues to evolve, it will further blur the lines between human and machine roles, making research and software development faster.
 With the general availability of AI, the interaction of RSEs with researchers will change at a fundamental level.
-Whereas previously RSEs have been points of knowledge that could translate human language formulated problems into technical descriptions and then provide solutions to them,
+Whereas previously RSEs have been points of knowledge that could translate
+human language formulated problems into technical descriptions and then provide solutions to them,
 it can be foreseen that AI will drive this low-key interaction to a highly specialised level of knowledge.
+RSEs will still act as points of knowledge by assisting users in integrating
+AI tools in their development workflows, understanding the reasoning of AI models,
+and more generally, by improving AI literacy~\cite{Alenezi2025}.
+AI-RSE specialists can contribute to the emerging fields of explainable
+AI for SE (XAI4SE)~\cite{Mohammadkhani2023v1} and AI for RSE (AI4RSE)~\cite{Farshidi2025v1}.
 
 \begin{story}{The interaction of RSEs with AI}{RSEs_with_AI}
 Kim develops advanced scientific software in tandem with an AI agent that codes,
@@ -397,6 +432,7 @@ With this assistance, Kim accelerates his research output while maintaining full
 \end{story}
 
 \subsection{Impact of Complexity and Usability in Research Software}
+\label{sec:complexity}
 \begin{whatis}{}{abstraction}
 With a palette of readily reusable software components,
 and with their skills in managing hierarchical systems of complex software components with clear interfaces,
