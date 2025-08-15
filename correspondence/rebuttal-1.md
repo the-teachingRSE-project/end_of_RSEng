@@ -92,6 +92,8 @@ Thank you for the comment. We have changed the sentence to point to the dual use
 > Story Box 6:
 > "that are backed by large, foreign corporate entities. So far, she still has the support of the university board, since it values strategic autonomy." This citation shows that the authors seem to write from a German point of view. In the previous sections, international collaboration was highlighted. In a global world, there is no "foreign corporate entity", just collaboration tools from different sources. This is a minor comment here but important for the general remark regarding the perspective given in the paper.
 
+Good point, we have dropped foreign as it does not matter where a large cooperation has its head quarters
+
 > Chaper 2.7
 > "in lower tiers of an of a research organisation", sentence needs attention
 
