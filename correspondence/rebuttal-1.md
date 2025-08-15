@@ -87,8 +87,12 @@ Author 12 wished to be listed as an independent researcher, which is now reflect
 > Chapter 2.5
 > "As engineers, RSEs take the responsibility for the software they develop. RSEs need to be aware of these issues and develop their own “red lines”." This statement underestimates the complexity of how code/knowledge/algorithms can be reused for military purposes. A scientist would need to know about present military technologies which is unrealistic. I fear the call for responsibility is too much to ask from an individual. Additionally, it creates a huge burden if code or a programme has been reused for military purposes. I would suggest that the authors make clear the boundaries of the responsibility.
 
+Thank you for the comment. We have changed the sentence to point to the dual use dilemma. 
+
 > Story Box 6:
 > "that are backed by large, foreign corporate entities. So far, she still has the support of the university board, since it values strategic autonomy." This citation shows that the authors seem to write from a German point of view. In the previous sections, international collaboration was highlighted. In a global world, there is no "foreign corporate entity", just collaboration tools from different sources. This is a minor comment here but important for the general remark regarding the perspective given in the paper.
+
+Good point, we have dropped foreign as it does not matter where a large cooperation has its head quarters
 
 > Chaper 2.7
 > "in lower tiers of an of a research organisation", sentence needs attention
