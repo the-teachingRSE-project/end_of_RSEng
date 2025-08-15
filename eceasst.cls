@@ -54,7 +54,7 @@
 % Command for emails
 \newcommand{\email}[1]{\href{mailto:#1}{#1}}
 % Command for Digital Object Identifiers
-\newcommand{\doi}[1]{\href{http://dx.doi.org/#1}{doi:#1}}
+\newcommand{\doi}[1]{\href{https://doi.org/#1}{doi:\nolinkurl{#1}}}
 % Correct anchors for figures and tables to be above the float
 % ------------------------------------------------------------
 \RequirePackage[all]{hypcap}
