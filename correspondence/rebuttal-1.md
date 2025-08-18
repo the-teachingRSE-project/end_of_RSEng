@@ -130,6 +130,11 @@ discussed by the conference participants.
 
 > The paper is a bit too generic for an in-depth assessment of its technical soundness. Specifically, many of the "core issues" are mentioned but never listed (with exception of "core software skills" - which ever these may be). As noted under significance, some existing developments in Software Engineering have not been properly respected (AI tooling, standardisation etc.) - which all contributed to the simplicity that allows easy generation of software. RSE has specific additional challenges related to soundness, replicability, reproducibility, interpretability etc. which are not addressed in the paper.
 
+Thank you for this observation.
+We were unaware of the SE community work on explainable AI for SE (XAI4SE) and AI for RSE (AI4RSE).
+We have extended the section on AI tooling and its challenges using the SE literature on the subject.
+We now mention the issue of reproducibility and draw a parallel with the HPC literature on the subject.
+
 ### Quality of presentation
 
 > The paper chooses a very interesting approach to present the key challenges / aspects, with a short description of the aspect leading as a mid- to long-term goal and a "futuristic story" as an exemplary scenario. Most of these aspects relate however to communities recognizing the relevance of RSE much more than what the relevance is, and the futuristic scenarios sometimes do not seem to fit the topic of the goal, such as in the context of Ethics / Social Consideration; few of the scenarios provide additional information that would further the understanding of the challenges or goals.
@@ -137,6 +142,17 @@ discussed by the conference participants.
 ### Suggestions
 
 > I like the idea and the elaboration of the paper, but fail to see relevant contributions in the individual sections, in particular comes to differentiation from Software Engineering. With that respect, related work in Software Engineering already addresses a lot of aspects mentioned in the paper and should be referenced and acknowledged appropriately as it shapes expectations and future work. I'd love to see a better elaboration of the paper, as again it is a relevant and interesting approach.
+
+This is a fair point.
+We have familiarized ourselves with the SE literature on this subject and have drawn
+parallels between projections made in the SE space and made in the RSE space.
+It was particularly interesting to see the overlap between our manuscript
+and Katz's 2023 paper ``Research Software Engineering in 2030''.
+
+Many participants of the workshop are scientists by training, and therefore have slightly
+different perspectives on the future of RSEng due to the environment they work in.
+They also use a different vocabulary compared to software engineers.
+The addition of SE literature is definitively an improvement for the manuscript.
 
 \newpage
 
