@@ -43,6 +43,38 @@ As suggested also by other referees, we made the workshop notes available at zen
 
 We have put this sentence to the front, and kept it at the end as a reminder.
 
+> "accepted research artefact on an equal footing with data and publications." If software or data is publicized would these artefacts not also be regarded as publications? I would suggest using "data and text" or "data and text publications" instead.
+
+We have reworded the text as suggested.
+
+> "The specialist skills that RSEs provide take a significant amount of time to develop and maintain. Therefore, we do not expect domain researchers to also become experts in a range of advanced RSEng topics." Could the authors name some of these advanced topics here? Or maybe change the position of this paragraph to after the paragraph about the domain researchers.
+
+We have moved this paragraph further down.
+
+> "What issues have newly emerged, where they are now just happy to say: .." This seems
+
+Not clear what was meant here. We have reworded it nevertheless.
+
+> 2.1 Chapter
+> "might remain unchanged, there might be a shift in the responsibilities of RSEs, in the form of a partial reallocation of the training budget to the other core competencies. " What is the rationale for this statement?
+
+We reprased it to better reflect that adaptations will be necessary
+
+> "Looking at that on a broader scale..." What is meant by "that"? What do the authors look at?
+
+Clarified that we mean the competencies.
+
+> Chapter 2.2
+> "visibility and accelerate the professionalisation of the RSE role" -> missing line spacing
+
+fixed this.
+
+> Story Box 4
+> "Kim accelerates his research.." To my understanding, Kim and Kay are female.
+
+Reworded it to keep the ambiguity in Gender.
+
+
 > Regarding Chapter 2.3.
 > I would propose the authors provide a counter argument/discussion to why AI will not totally make RSEs obsolete. Additionally, the authors paint a quite bright picture of the AI future, however not discussing risks to the scientific processes, e.g. difficulty with recplication, societal trust in science, non-democtratization of science because of access to storage, compute and useful data sets, etc.
 
@@ -94,7 +126,7 @@ Thank you for the comment. We have changed the sentence to point to the dual use
 
 Good point, we have dropped foreign as it does not matter where a large cooperation has its head quarters
 
-> Chaper 2.7
+> Chapter 2.7
 > "in lower tiers of an of a research organisation", sentence needs attention
 
 > Story Box 8:
