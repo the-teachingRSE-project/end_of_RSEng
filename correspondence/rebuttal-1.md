@@ -74,7 +74,6 @@ fixed this.
 
 Reworded it to keep the ambiguity in Gender.
 
-
 > Regarding Chapter 2.3.
 > I would propose the authors provide a counter argument/discussion to why AI will not totally make RSEs obsolete. Additionally, the authors paint a quite bright picture of the AI future, however not discussing risks to the scientific processes, e.g. difficulty with recplication, societal trust in science, non-democtratization of science because of access to storage, compute and useful data sets, etc.
 
@@ -84,6 +83,11 @@ we have made these stronger in an additional paragraph.
 
 > Regarding Chaper 2.6
 > "thinking on the time scale of generations". This seems crucial, especially when looking at academia in Germany. Many renowened professors will retire in the next 5-10 years, making way for a younger generation that even may have coded during their career. The authors do not discuss this obvious transformation. Do they no expect at least some RSE professors?
+
+> Chaper 2.7
+> "in lower tiers of an of a research organisation", sentence needs attention
+
+Fixed.
 
 > Minor remarks:
 > Author 12 lacks affiliation information
@@ -97,25 +101,6 @@ Author 12 wished to be listed as an independent researcher, which is now reflect
 > 2. Chapter
 > This chapter includes the authors vision of the RSE space in 2035.
 
-> "accepted research artefact on an equal footing with data and publications." If software or data is publicized would these artefacts not also be regarded as publications? I would suggest using "data and text" or "data and text publications" instead.
-
-> "The specialist skills that RSEs provide take a significant amount of time to develop and maintain. Therefore, we do not expect domain researchers to also become experts in a range of advanced RSEng topics." Could the authors name some of these advanced topics here? Or maybe change the position of this paragraph to after the paragraph about the domain researchers.
-
-> Story Box 1:
-> "What issues have newly emerged, where they are now just happy to say: .." This seems
-
-> 2.1 Chapter
->
-> "might remain unchanged, there might be a shift in the responsibilities of RSEs, in the form of a partial reallocation of the training budget to the other core competencies. " What is the rationale for this statement?
-
-> "Looking at that on a broader scale..." What is meant by "that"? What do the authors look at?
-
-> Chapter 2.2
-> "visibility and accelerate the professionalisationof the RSE role" -> missing line spacing
-
-> Story Box 4
-> "Kim accelerates his research.." To my understanding, Kim and Kay are female.
-
 > Chapter 2.5
 > "As engineers, RSEs take the responsibility for the software they develop. RSEs need to be aware of these issues and develop their own “red lines”." This statement underestimates the complexity of how code/knowledge/algorithms can be reused for military purposes. A scientist would need to know about present military technologies which is unrealistic. I fear the call for responsibility is too much to ask from an individual. Additionally, it creates a huge burden if code or a programme has been reused for military purposes. I would suggest that the authors make clear the boundaries of the responsibility.
 
@@ -126,14 +111,16 @@ Thank you for the comment. We have changed the sentence to point to the dual use
 
 Good point, we have dropped foreign as it does not matter where a large cooperation has its head quarters
 
-> Chapter 2.7
-> "in lower tiers of an of a research organisation", sentence needs attention
-
 > Story Box 8:
 > "His unique blend of physics knowledge and hands-on problem solving earned him a new title among his peers: the first Quantum RTP. In a world where theory meets reality, Ken quietly ensures that the future of quantum
 > computing stays on track" Is this still a position within the research staff or within the technical staff? The authors seem to imply that HR departements will hire RTPs as research staff. This issue should be discussed.
 
+Thanks for pointing this out. We added some discussion that this needs to be resolved by then.
+
+
 > Conclusion paragraph. Formatting needs attention.
+
+We fixed a typo.
 
 > Line numbering would make referencing easier
 
