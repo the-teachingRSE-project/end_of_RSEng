@@ -211,6 +211,25 @@ We reworded it as a statement.
 
 Thanks for  spotting this. We increased our boldness and removed every hope...
 
+> Page 10
+> Life would be so much easier if at least university regulations would be homogenised, no? - reword as Life would be so much easier if at least university regulations were homogenised.
+
+fixed as per comment.
+
+> As per previous comments, wording like “we would like to see” should be removed from the Achieved Goals box
+
+Reworded the box accordingly.
+
+> Page 11
+> Nevertheless, there are some things that we declared out of scope here. Among that is the ongoing digital transformation in wider society. – Reword as one sentence
+
+Reworded the sentence accordingly.
+
+> Page 12
+> In summary, RSEs will very likely be doing different work
+> to what they are doing today - remove this line break
+
+Not sure, how this crept into the final version... It's gone now.
 
 \newpage
 
