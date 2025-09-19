@@ -53,6 +53,8 @@ we have made these stronger in an additional paragraph.
 > Regarding Chaper 2.6
 > "thinking on the time scale of generations". This seems crucial, especially when looking at academia in Germany. Many renowened professors will retire in the next 5-10 years, making way for a younger generation that even may have coded during their career. The authors do not discuss this obvious transformation. Do they no expect at least some RSE professors?
 
+Thanks for bringing this up. We have added that aspect in such a way to not sound too Germany specific.
+
 > Minor remarks:
 > Author 12 lacks affiliation information
 
