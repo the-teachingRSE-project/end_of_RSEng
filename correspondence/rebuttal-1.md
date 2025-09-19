@@ -191,6 +191,11 @@ Thanks for spotting this, now the titles are properly capitalised.
 
 Used commas and stronger wording to make our intent clearer.
 
+> Page 7
+> We acknowledge but would also like to challenge the observations of the participants. We believe that “we are standing on the shoulders of giants”: – Up till now in the paper, “we” seems to have meant the research sector at large, but here it is specifically the authors – maybe reword as “The authors acknowledge ….” And “The authors believe …”
+
+Thanks for spotting this. We went throught the paper and thought about the use of "we" in each instance. Now it should refer, to the paper authors exclusively.
+
 \newpage
 
 ## Reviewer C
