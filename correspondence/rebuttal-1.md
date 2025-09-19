@@ -237,8 +237,14 @@ The addition of SE literature is definitively an improvement for the manuscript.
 >
 > "In Germany, a formal call for creating a sustainable environment for research software is only a couple of years behind" (behind what?); and
 >
+
+Thanks for pointing this out, we reformulated that sentence.
+
 > "While future projections are common in industry [Gar25], so far there is a projection lacking for the RSEng space" (slightly stilted and non-standard English in "a projection lacking").
 >
+
+Thanks for pointing this out, we clarified these sentences while incorporating changes for other edits.
+
 > These cases are minor and debatable, and as such do not merit additional editing.
 
 > The use of 'Achieved Goals' boxes to highlight positive future outcomes for the field, and 'Story' boxes to bring the potential changes in the field to a human level with a focus on fictional personas, are nice touches that enhance the readability and impact of this piece.
