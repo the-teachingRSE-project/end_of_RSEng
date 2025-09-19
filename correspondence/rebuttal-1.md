@@ -196,6 +196,22 @@ Used commas and stronger wording to make our intent clearer.
 
 Thanks for spotting this. We went throught the paper and thought about the use of "we" in each instance. Now it should refer, to the paper authors exclusively.
 
+> Page 8
+> By 2035, we want to have achieved accepted rules on the use of AI in research tasks and software development. Open Science and Open Research are by then well established in academia, and supported by respective Open Research Software strategies of the political actors. We also hope that Data Awareness and Data Protection are still values that are protected. – Earlier on the text in these boxes were explained to be what has been achieved by 2035, so this needs rewording. And why are some of these terms capitalised?
+
+Thank You for spotting. A stronger wording is now used and capitalisation has been changed. We kept Open Science, Open Research, and Good Scientific Practice since to us they are proper, full nouns.
+
+
+> Page 9
+> 2.6 How have academic Institutions transformed by then? – this title is quite different to the others of section 2 (which are issues) and would benefit from rewording
+
+We reworded it as a statement.
+
+> As per previous comments, wording like “we expect/hope” should be removed from the Achieved Goals box
+
+Thanks for  spotting this. We increased our boldness and removed every hope...
+
+
 \newpage
 
 ## Reviewer C
