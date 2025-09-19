@@ -173,6 +173,18 @@ different perspectives on the future of RSEng due to the environment they work i
 They also use a different vocabulary compared to software engineers.
 The addition of SE literature is definitively an improvement for the manuscript.
 
+> Research Software Engineering and Research Software Engineer ae occasionally written in full when the abbreviation could be used
+
+We have used the abbreviation now in all places except where it is part of a name or a paublication. Also we refrained from starting the intro with an abbreviation.
+
+> Why is Research Software capitalised?
+
+Now it is lower-case, except in names or publication titles.
+
+> The titles in section 2 aren’t consistent in how they are capitalised
+
+Thanks for spotting this, now hte titles are properly capitalised.
+
 \newpage
 
 ## Reviewer C
