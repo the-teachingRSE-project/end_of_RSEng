@@ -175,7 +175,7 @@ The addition of SE literature is definitively an improvement for the manuscript.
 
 > Research Software Engineering and Research Software Engineer ae occasionally written in full when the abbreviation could be used
 
-We have used the abbreviation now in all places except where it is part of a name or a paublication. Also we refrained from starting the intro with an abbreviation.
+We have used the abbreviation now in all places except where it is part of a name or a publication. Also we refrained from starting the intro with an abbreviation.
 
 > Why is Research Software capitalised?
 
@@ -183,7 +183,13 @@ Now it is lower-case, except in names or publication titles.
 
 > The titles in section 2 aren’t consistent in how they are capitalised
 
-Thanks for spotting this, now hte titles are properly capitalised.
+Thanks for spotting this, now the titles are properly capitalised.
+
+> Page 5
+> In addition, a multitude of RSE communities self-organised at the national and regional level to support more viable RSE career
+> paths in academia. – remove “to”
+
+Used commas and stronger wording to make our intent clearer.
 
 \newpage
 
