@@ -21,6 +21,13 @@ Important Dates:
 
 **We use British English**
 
+The CI/CD pipeline runs `aspell`. To run it locally use
+```bash
+aspell -t --home-dir=. -c -d en_GB future_challenges_for_RSEng.tex
+```
+A local list of words is used.
+
+
 Clone the repository and initialise the submodules as follows:
 
 ```sh
