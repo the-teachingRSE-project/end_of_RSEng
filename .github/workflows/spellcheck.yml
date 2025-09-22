@@ -4,6 +4,8 @@ jobs:
   spellcheck:
     runs-on: ubuntu-latest
     steps:
+      - name: Install packages
+        run: sudo apt install -y aspell aspell-en
       - name: Set up Git repository
         uses: actions/checkout@v4
       - name: run spellchecker
