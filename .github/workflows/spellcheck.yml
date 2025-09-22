@@ -19,3 +19,4 @@ jobs:
           while read word; do grep -on "\<$word\>" future_challenges_for_RSEng.tex; done
           # error if list of misspelled words is not empty
           test "$(cat .github/misspelled_words.txt | wc -l)" -gt 0 && exit 1
+          exit 0
