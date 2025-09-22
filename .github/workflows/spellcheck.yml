@@ -1,0 +1,21 @@
+name: 'spellcheck'
+on: [push, pull_request]
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v4
+      - name: run spellchecker
+        run: |
+          # from https://stackoverflow.com/a/6404478
+          # run spell checker on file
+          cat future_challenges_for_RSEng.tex | aspell pipe list -d en_GB --home-dir=. -t | \
+          # get the misspelled words
+          grep '[a-zA-Z]\+ [0-9]\+ [0-9]\+' -oh | \
+          grep '[a-zA-Z]\+' -o > .github/misspelled_words.txt
+          # and look for them in the file
+          cat .github/misspelled_words.txt | \
+          while read word; do grep -on "\<$word\>" future_challenges_for_RSEng.tex; done
+          # error if list of misspelled words is not empty
+          test -s .github/misspelled_words.txt && exit 1
