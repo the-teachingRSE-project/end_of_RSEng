@@ -84,7 +84,7 @@ we have made these stronger in an additional paragraph.
 > Regarding Chapter 2.6
 > "thinking on the time scale of generations". This seems crucial, especially when looking at academia in Germany. Many renowened professors will retire in the next 5-10 years, making way for a younger generation that even may have coded during their career. The authors do not discuss this obvious transformation. Do they no expect at least some RSE professors?
 
-Thanks for bringing this up. We have added that aspect in such a way to not sound too Germany specific.
+Thanks for bringing this up. We have formulated that aspect towards a call for action without  sounding too Germany specific.
 
 > Chapter 2.7
 > "in lower tiers of an of a research organisation", sentence needs attention
