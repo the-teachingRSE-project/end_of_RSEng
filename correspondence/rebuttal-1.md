@@ -309,6 +309,8 @@ Thanks for pointing this out, we clarified these sentences while incorporating c
 
 > Another very minor point: the gender pronouns of the two personas ('Kim' and 'Kay') appear to swap at times; e.g. in Story 3 'Kay' is 'her' and in Story 4 'Kim' is 'him', while in Story 6 'Kay' is 'he' and 'Kim' is 'she')
 
+Very true, thanks for pointing this out. We have fixed it. Kim and Kay are sisters.
+
 ### Suggestions
 
 > If possible, the inclusion of a small table, figure, and/or a few lines of text summarising the distribution of key features of the workshop participants might be an interesting addition (e.g. level of academic/research education, an indication of their software engineering proficiency/professionalism, their age and/or career stage)... I would be curious as to the level of 'optimism' and expectations for change for the field that participants with different backgrounds might tend to have, although I feel that your paper has merit and interest as it stands, with no such changes needed.
