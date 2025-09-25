@@ -1,0 +1,22 @@
+name: 'spellcheck'
+on: [push, pull_request]
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install packages
+        run: sudo apt install -y aspell aspell-en
+      - name: Set up Git repository
+        uses: actions/checkout@v4
+      - name: run spellchecker
+        run: |
+          # run spell checker on file
+          cat future_challenges_for_RSEng.tex | aspell pipe list -d en_GB --home-dir=. -t | \
+          # skip first line and only get misspelled words
+          awk -F ' ' '{if (NR>1 && NF>1){print $2}}' > .github/misspelled_words.txt
+          # and look for them in the file
+          cat .github/misspelled_words.txt | \
+          while read word; do grep -on "\<$word\>" future_challenges_for_RSEng.tex; done
+          # error if list of misspelled words is not empty
+          test "$(cat .github/misspelled_words.txt | wc -l)" -gt 0 && exit 1
+          exit 0
