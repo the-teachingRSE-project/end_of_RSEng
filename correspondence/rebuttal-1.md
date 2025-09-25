@@ -45,6 +45,37 @@ Thank you for highlighting this. We have added some text to the second paragraph
 
 We have put this sentence to the front, and kept it at the end as a reminder.
 
+> "accepted research artefact on an equal footing with data and publications." If software or data is publicized would these artefacts not also be regarded as publications? I would suggest using "data and text" or "data and text publications" instead.
+
+We have reworded the text as suggested.
+
+> "The specialist skills that RSEs provide take a significant amount of time to develop and maintain. Therefore, we do not expect domain researchers to also become experts in a range of advanced RSEng topics." Could the authors name some of these advanced topics here? Or maybe change the position of this paragraph to after the paragraph about the domain researchers.
+
+We have moved this paragraph further down.
+
+> "What issues have newly emerged, where they are now just happy to say: .." This seems
+
+Not clear what was meant here. We have reworded it nevertheless.
+
+> 2.1 Chapter
+> "might remain unchanged, there might be a shift in the responsibilities of RSEs, in the form of a partial reallocation of the training budget to the other core competencies. " What is the rationale for this statement?
+
+We reprased it to better reflect that adaptations will be necessary
+
+> "Looking at that on a broader scale..." What is meant by "that"? What do the authors look at?
+
+Clarified that we mean the competencies.
+
+> Chapter 2.2
+> "visibility and accelerate the professionalisation of the RSE role" -> missing line spacing
+
+fixed this.
+
+> Story Box 4
+> "Kim accelerates his research.." To my understanding, Kim and Kay are female.
+
+Reworded it to keep the ambiguity in Gender.
+
 > Regarding Chapter 2.3.
 > I would propose the authors provide a counter argument/discussion to why AI will not totally make RSEs obsolete. Additionally, the authors paint a quite bright picture of the AI future, however not discussing risks to the scientific processes, e.g. difficulty with recplication, societal trust in science, non-democtratization of science because of access to storage, compute and useful data sets, etc.
 
@@ -54,6 +85,11 @@ we have made these stronger in an additional paragraph.
 
 > Regarding Chaper 2.6
 > "thinking on the time scale of generations". This seems crucial, especially when looking at academia in Germany. Many renowened professors will retire in the next 5-10 years, making way for a younger generation that even may have coded during their career. The authors do not discuss this obvious transformation. Do they no expect at least some RSE professors?
+
+> Chaper 2.7
+> "in lower tiers of an of a research organisation", sentence needs attention
+
+Fixed.
 
 > Minor remarks:
 > Author 12 lacks affiliation information
@@ -67,25 +103,6 @@ Author 12 wished to be listed as an independent researcher, which is now reflect
 > 2. Chapter
 > This chapter includes the authors vision of the RSE space in 2035.
 
-> "accepted research artefact on an equal footing with data and publications." If software or data is publicized would these artefacts not also be regarded as publications? I would suggest using "data and text" or "data and text publications" instead.
-
-> "The specialist skills that RSEs provide take a significant amount of time to develop and maintain. Therefore, we do not expect domain researchers to also become experts in a range of advanced RSEng topics." Could the authors name some of these advanced topics here? Or maybe change the position of this paragraph to after the paragraph about the domain researchers.
-
-> Story Box 1:
-> "What issues have newly emerged, where they are now just happy to say: .." This seems
-
-> 2.1 Chapter
->
-> "might remain unchanged, there might be a shift in the responsibilities of RSEs, in the form of a partial reallocation of the training budget to the other core competencies. " What is the rationale for this statement?
-
-> "Looking at that on a broader scale..." What is meant by "that"? What do the authors look at?
-
-> Chapter 2.2
-> "visibility and accelerate the professionalisationof the RSE role" -> missing line spacing
-
-> Story Box 4
-> "Kim accelerates his research.." To my understanding, Kim and Kay are female.
-
 > Chapter 2.5
 > "As engineers, RSEs take the responsibility for the software they develop. RSEs need to be aware of these issues and develop their own “red lines”." This statement underestimates the complexity of how code/knowledge/algorithms can be reused for military purposes. A scientist would need to know about present military technologies which is unrealistic. I fear the call for responsibility is too much to ask from an individual. Additionally, it creates a huge burden if code or a programme has been reused for military purposes. I would suggest that the authors make clear the boundaries of the responsibility.
 
@@ -96,14 +113,16 @@ Thank you for the comment. We have changed the sentence to point to the dual use
 
 Good point, we have dropped foreign as it does not matter where a large cooperation has its head quarters
 
-> Chaper 2.7
-> "in lower tiers of an of a research organisation", sentence needs attention
-
 > Story Box 8:
 > "His unique blend of physics knowledge and hands-on problem solving earned him a new title among his peers: the first Quantum RTP. In a world where theory meets reality, Ken quietly ensures that the future of quantum
 > computing stays on track" Is this still a position within the research staff or within the technical staff? The authors seem to imply that HR departements will hire RTPs as research staff. This issue should be discussed.
 
+Thanks for pointing this out. We added some discussion that this needs to be resolved by then.
+
+
 > Conclusion paragraph. Formatting needs attention.
+
+We fixed a typo.
 
 > Line numbering would make referencing easier
 
@@ -155,6 +174,64 @@ Many participants of the workshop are scientists by training, and therefore have
 different perspectives on the future of RSEng due to the environment they work in.
 They also use a different vocabulary compared to software engineers.
 The addition of SE literature is definitively an improvement for the manuscript.
+
+> Research Software Engineering and Research Software Engineer ae occasionally written in full when the abbreviation could be used
+
+We have used the abbreviation now in all places except where it is part of a name or a publication. Also we refrained from starting the intro with an abbreviation.
+
+> Why is Research Software capitalised?
+
+Now it is lower-case, except in names or publication titles.
+
+> The titles in section 2 aren’t consistent in how they are capitalised
+
+Thanks for spotting this, now the titles are properly capitalised.
+
+> Page 5
+> In addition, a multitude of RSE communities self-organised at the national and regional level to support more viable RSE career
+> paths in academia. – remove “to”
+
+Used commas and stronger wording to make our intent clearer.
+
+> Page 7
+> We acknowledge but would also like to challenge the observations of the participants. We believe that “we are standing on the shoulders of giants”: – Up till now in the paper, “we” seems to have meant the research sector at large, but here it is specifically the authors – maybe reword as “The authors acknowledge ….” And “The authors believe …”
+
+Thanks for spotting this. We went throught the paper and thought about the use of "we" in each instance. Now it should refer, to the paper authors exclusively.
+
+> Page 8
+> By 2035, we want to have achieved accepted rules on the use of AI in research tasks and software development. Open Science and Open Research are by then well established in academia, and supported by respective Open Research Software strategies of the political actors. We also hope that Data Awareness and Data Protection are still values that are protected. – Earlier on the text in these boxes were explained to be what has been achieved by 2035, so this needs rewording. And why are some of these terms capitalised?
+
+Thank You for spotting. A stronger wording is now used and capitalisation has been changed. We kept Open Science, Open Research, and Good Scientific Practice since to us they are proper, full nouns.
+
+
+> Page 9
+> 2.6 How have academic Institutions transformed by then? – this title is quite different to the others of section 2 (which are issues) and would benefit from rewording
+
+We reworded it as a statement.
+
+> As per previous comments, wording like “we expect/hope” should be removed from the Achieved Goals box
+
+Thanks for  spotting this. We increased our boldness and removed every hope...
+
+> Page 10
+> Life would be so much easier if at least university regulations would be homogenised, no? - reword as Life would be so much easier if at least university regulations were homogenised.
+
+fixed as per comment.
+
+> As per previous comments, wording like “we would like to see” should be removed from the Achieved Goals box
+
+Reworded the box accordingly.
+
+> Page 11
+> Nevertheless, there are some things that we declared out of scope here. Among that is the ongoing digital transformation in wider society. – Reword as one sentence
+
+Reworded the sentence accordingly.
+
+> Page 12
+> In summary, RSEs will very likely be doing different work
+> to what they are doing today - remove this line break
+
+Not sure, how this crept into the final version... It's gone now.
 
 \newpage
 
@@ -220,8 +297,14 @@ The addition of SE literature is definitively an improvement for the manuscript.
 >
 > "In Germany, a formal call for creating a sustainable environment for research software is only a couple of years behind" (behind what?); and
 >
+
+Thanks for pointing this out, we reformulated that sentence.
+
 > "While future projections are common in industry [Gar25], so far there is a projection lacking for the RSEng space" (slightly stilted and non-standard English in "a projection lacking").
 >
+
+Thanks for pointing this out, we clarified these sentences while incorporating changes for other edits.
+
 > These cases are minor and debatable, and as such do not merit additional editing.
 
 > The use of 'Achieved Goals' boxes to highlight positive future outcomes for the field, and 'Story' boxes to bring the potential changes in the field to a human level with a focus on fictional personas, are nice touches that enhance the readability and impact of this piece.
