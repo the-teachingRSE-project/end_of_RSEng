@@ -41,6 +41,9 @@ Thank you for highlighting this. We have added some text to the second paragraph
 
 > 2. The authors switch between the past and present tenses, which makes reading the article difficult. They sometimes address present tools, infrastructure and activities, and sometimes write as if future tools, infrastructure and activities have been made available or developed. For example, the "Achieved Goals" refer to goals achieved by 2035, but the tenses change throughout the boxes. "RSEng-relevant open educational resources..." Some resources are available and some are not; however, the style of writing makes it difficult to tell the difference. I would propose that the authors use tenses to clearly distinguish between past, present and future activities, tools and resources, and not write as if future activities have already been successful. Additionally, the authors write about their hopes, which seem off-topic for a report or opinion paper. I would suggest not writing about hopes at all. Future trend statements should be based on knowledge.
 
+Thanks for spotting. We have used stronger language in the revision. We have also passed over the document to make the tenses homogeneous.
+
+
 > 3. The authors claim to "present here the results of a workshop discussion at the deRSE25 conference in Karlsruhe". However, they also include their hopes, discussions and own expectations for the future RSE ecosystem (in Germany). This should be mentioned in the introduction and it should be made clear which statements have been put forward during the discussion and which have been added by the authors after the discussion. The authors mention this construct in section 3 ("In the previous sections, we have tried to list some of the trends that we foresee. The material presented here is based on the outputs of a workshop, but extended with the authors’ ideas."), which makes understanding the paper difficult; I would expect such a statement at the beginning. While I do not propose to re-structure the paper (e.g. report first, discussion second), I suggest to review the paper as to which statements have been reported in the discussion and which statement have been brought up by the authors.
 
 We have put this sentence to the front, and kept it at the end as a reminder.
@@ -83,10 +86,10 @@ We have extended the AI section to mention further risks from AI.
 While the original manuscript already mentioned issues with AI and a shift of focus in the RSE role,
 we have made these stronger in an additional paragraph.
 
-> Regarding Chaper 2.6
+> Regarding Chapter 2.6
 > "thinking on the time scale of generations". This seems crucial, especially when looking at academia in Germany. Many renowened professors will retire in the next 5-10 years, making way for a younger generation that even may have coded during their career. The authors do not discuss this obvious transformation. Do they no expect at least some RSE professors?
 
-> Chaper 2.7
+> Chapter 2.7
 > "in lower tiers of an of a research organisation", sentence needs attention
 
 Fixed.
@@ -190,6 +193,52 @@ Now it is lower-case, except in names or publication titles.
 
 Thanks for spotting this, now the titles are properly capitalised.
 
+
+\newpage
+
+## Reviewer C
+
+### Summary
+
+> A useful overview of outcomes of a valuable workshop, augmented by the author's own opinions, on the future of RSE.
+
+### Relevance
+
+> This paper reflects on a workshop held at de-RSE
+
+### Significance
+
+> This paper addresses many important themes in this field, and makes useful contributions on how they could be advanced.
+
+### Technical soundness
+
+> This is an opinion paper, based on synthesis of the workshop discussions and the authors' knowledge.
+
+### Quality of presentation
+
+> The use of boxes is a great idea, but doesn't quite work. See the detailed notes for ideas on how to improve this.
+
+### Suggestions
+
+> It might be useful to note that this paper on RSE in 2030 exists https://arxiv.org/pdf/2308.07796, although the workshop participants didn’t know about it so it wasn’t incorporated in their thinking.
+
+> Reviewer C also uploaded a file with more feedback
+
+> Page 2
+> In order to list what has been achieved in a certain aspect within the RSE community of the future of 2035 we use these “Goal” boxes. – The use of the term “Achieved Goals” is a bit confusing.  I understand it’s meant that these would have been achieved by 2035, but then the text under these boxes talks about 2035 as a future state. I’d suggest rewording these boxes to “2035 Goals’ or similar.
+
+We have reworded them to RSEng in 2035.
+
+> Page 3
+> Story 1: In order to give a more concrete setting, imagine a world ten years from now. Not too overwhelmingly far ahead in the future, but distant enough for some changes to have occurred. – These are both incomplete sentences, ie it's a group of words that doesn't express a complete thought and is missing a necessary element, like a subject or a verb. 
+
+We have reworded this sentence in order to provide more natural british english.
+
+> Page 4
+> RSEng-relevant open educational resources and Master’s programmes are tracked in the Learning and Teaching RSE database2 and UK SSI resources hub3. The Carpentries now offer specialised software workshops for data scientists4, librarians5, and soon HPC practitioners6. – This seems to be about the future state, but it’s not clear what “now” means here (probably 2035?) – for example, a few paragraphs earlier there is wording “This means, that today’s workshop content of proper versioning and data management could become obsolete by using more intuitive tools.” – where today means 2025. Can it be made clearer throughout the paper when the text is talking about 2025 versus 2035?
+
+Since the inconsistent use tof times was mentioned by multiple reviewers, we went over the paper multiple times to be more consistent with regard to the use of tenses.
+
 > Page 5
 > In addition, a multitude of RSE communities self-organised at the national and regional level to support more viable RSE career
 > paths in academia. – remove “to”
@@ -235,36 +284,6 @@ Reworded the sentence accordingly.
 > to what they are doing today - remove this line break
 
 Not sure, how this crept into the final version... It's gone now.
-
-\newpage
-
-## Reviewer C
-
-### Summary
-
-> A useful overview of outcomes of a valuable workshop, augmented by the author's own opinions, on the future of RSE.
-
-### Relevance
-
-> This paper reflects on a workshop held at de-RSE
-
-### Significance
-
-> This paper addresses many important themes in this field, and makes useful contributions on how they could be advanced.
-
-### Technical soundness
-
-> This is an opinion paper, based on synthesis of the workshop discussions and the authors' knowledge.
-
-### Quality of presentation
-
-> The use of boxes is a great idea, but doesn't quite work. See the detailed notes for ideas on how to improve this.
-
-### Suggestions
-
-> It might be useful to note that this paper on RSE in 2030 exists https://arxiv.org/pdf/2308.07796, although the workshop participants didn’t know about it so it wasn’t incorporated in their thinking.
-
-> Reviewer C also uploaded a file with more feedback
 
 \newpage
 
