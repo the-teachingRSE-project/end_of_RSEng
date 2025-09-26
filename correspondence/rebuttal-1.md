@@ -101,6 +101,9 @@ Author 12 wished to be listed as an independent researcher, which is now reflect
 
 > Keywords could be richer
 
+Thank You, we added some more keywords.
+
+
 > "In order to structure the discussion, we decided to consider...". Was the discussion structured as presented or is the paper structured as presented; the sentence implies the former. Is there a rationale why the authors include the following topics? Have there been other topics in discussion that have not been namend in the paper?
 
 > 2. Chapter
