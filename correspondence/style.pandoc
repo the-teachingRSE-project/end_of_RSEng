@@ -1,5 +1,5 @@
 \usepackage[left=1in, right=1in, top=1in]{geometry}
-
+\usepackage{hyperref}
 \usepackage{tcolorbox}
 \newtcolorbox{myquote}{width=.98\textwidth, colback=gray!5!white, colframe=cyan!75!black}
 % redefine the 'quote' environment to use this 'myquote' environment
