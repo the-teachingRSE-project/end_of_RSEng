@@ -19,11 +19,19 @@ jobs:
             sed -i 's|^[ \t]*url *= *../|  url = https://github.com/the-teachingRSE-project/|' .gitmodules \
               && git submodule update --init --recursive \
               && git config --local submodule.recurse true
+      - name: Compile rebuttal
+        run: |
+          cd correspondence && make
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
         with:
           name: PDF
           path: future_challenges_for_RSEng.pdf
+      - name: Upload rebuttal
+        uses: actions/upload-artifact@v4
+        with:
+          name: rebuttal
+          path: correspondence/rebuttal.pdf
   deploy:
     needs: [build]
     permissions:

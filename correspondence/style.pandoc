@@ -1,0 +1,12 @@
+\usepackage[left=1in, right=1in, top=1in]{geometry}
+
+\usepackage{tcolorbox}
+\newtcolorbox{myquote}{width=.98\textwidth, colback=gray!5!white, colframe=cyan!75!black}
+% redefine the 'quote' environment to use this 'myquote' environment
+\renewenvironment{quote}{\begin{center}\begin{myquote}}{\end{myquote}\end{center}}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=gray,
+  linkcolor=gray
+  }
