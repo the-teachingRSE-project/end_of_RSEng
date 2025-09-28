@@ -21,6 +21,7 @@ jobs:
               && git config --local submodule.recurse true
       - name: Compile rebuttal
         run: |
+          python3 -m venv venv && source venv/bin/activate && pip3 install pandoc
           cd correspondence && make
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
