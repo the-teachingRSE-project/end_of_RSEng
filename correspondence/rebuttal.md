@@ -77,7 +77,7 @@ fixed this.
 > Story Box 4
 > "Kim accelerates his research.." To my understanding, Kim and Kay are female.
 
-Reworded it to keep the ambiguity in Gender.
+Reworded it since Kim and Kay are sisters.
 
 > Regarding Chapter 2.3.
 > I would propose the authors provide a counter argument/discussion to why AI will not totally make RSEs obsolete. Additionally, the authors paint a quite bright picture of the AI future, however not discussing risks to the scientific processes, e.g. difficulty with recplication, societal trust in science, non-democtratization of science because of access to storage, compute and useful data sets, etc.
@@ -242,7 +242,7 @@ We have reworded this sentence in order to provide more natural british english.
 > Page 4
 > RSEng-relevant open educational resources and Master’s programmes are tracked in the Learning and Teaching RSE database2 and UK SSI resources hub3. The Carpentries now offer specialised software workshops for data scientists4, librarians5, and soon HPC practitioners6. – This seems to be about the future state, but it’s not clear what “now” means here (probably 2035?) – for example, a few paragraphs earlier there is wording “This means, that today’s workshop content of proper versioning and data management could become obsolete by using more intuitive tools.” – where today means 2025. Can it be made clearer throughout the paper when the text is talking about 2025 versus 2035?
 
-Since the inconsistent use tof times was mentioned by multiple reviewers, we went over the paper multiple times to be more consistent with regard to the use of tenses.
+Since the inconsistent use of times was mentioned by multiple reviewers, we went over the paper multiple times to be more consistent with regard to the use of tenses.
 
 > Page 5
 > In addition, a multitude of RSE communities self-organised at the national and regional level to support more viable RSE career
