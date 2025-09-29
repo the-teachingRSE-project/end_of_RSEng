@@ -19,20 +19,28 @@ jobs:
             sed -i 's|^[ \t]*url *= *../|  url = https://github.com/the-teachingRSE-project/|' .gitmodules \
               && git submodule update --init --recursive \
               && git config --local submodule.recurse true
-      - name: Compile rebuttal
-        run: |
-          python3 -m venv venv && source venv/bin/activate && pip3 install pandoc && \
-          cd correspondence && make
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
         with:
           name: PDF
           path: future_challenges_for_RSEng.pdf
-      - name: Upload rebuttal
-        uses: actions/upload-artifact@v4
-        with:
-          name: rebuttal
-          path: correspondence/rebuttal.pdf
+  rebuttal:
+    runs-on: ubuntu-24.04
+    container: texlive/texlive:latest
+    steps:
+    - name: Set up Git repository
+      uses: actions/checkout@v4
+      with:
+        submodules: false # must be done manually
+    - name: Build rebuttal
+      run: |
+        apt-get update && apt-get install -y pandoc
+        cd correspondence && make
+    - name: Upload rebuttal
+      uses: actions/upload-artifact@v4
+      with:
+        name: rebuttal
+        path: correspondence/rebuttal.pdf
   deploy:
     needs: [build]
     permissions:
